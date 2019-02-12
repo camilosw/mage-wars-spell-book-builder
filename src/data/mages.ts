@@ -1,4 +1,6 @@
-exports.mages = [
+import Mage from '../types/Mage';
+
+const mages: Mage[] = [
   {
     name: 'Wizard (Air)',
     type: 'Wizard',
@@ -146,3 +148,5 @@ exports.mages = [
     schools: ['War']
   }
 ];
+
+export default mages;
