@@ -5,8 +5,10 @@ import schools from '../data/schools';
 
 export interface FilterValues {
   name: string;
-  cardType: string;
+  type: string;
+  subType: string;
   school: string;
+  used: string;
 }
 
 export interface Props {
@@ -14,11 +16,21 @@ export interface Props {
 }
 
 const Filter: FC<Props> = ({ onChange }) => {
-  const [filter, setFilter] = React.useState<FilterValues>({
+  const initialState: FilterValues = {
     name: '',
-    cardType: '',
-    school: ''
-  });
+    type: '',
+    subType: '',
+    school: '',
+    used: ''
+  };
+  const [filter, setFilter] = React.useState<FilterValues>(initialState);
+
+  const usedValues = [
+    { value: '', label: 'Usage' },
+    { value: 'used', label: 'Used' },
+    { value: 'owned', label: 'Owned' },
+    { value: 'usable', label: 'Usable' }
+  ];
 
   const handleChange = (
     event:
@@ -27,7 +39,12 @@ const Filter: FC<Props> = ({ onChange }) => {
   ) => {
     const newFilter = { ...filter, [event.target.name]: event.target.value };
     setFilter(newFilter);
-    onChange(filter);
+    onChange(newFilter);
+  };
+
+  const handleReset = () => {
+    setFilter(initialState);
+    onChange(initialState);
   };
 
   return (
@@ -35,30 +52,43 @@ const Filter: FC<Props> = ({ onChange }) => {
       <input
         type="text"
         name="name"
+        placeholder="Search name"
         value={filter.name}
         onChange={handleChange}
       />
-      <select name="cardType" value={filter.cardType} onChange={handleChange}>
-        <option value="">All</option>
+      <select name="type" value={filter.type} onChange={handleChange}>
+        <option value="">Type</option>
         {cardTypes.map(cardType => (
           <option value={cardType.toLowerCase()} key={cardType}>
             {cardType}
           </option>
         ))}
       </select>
-      <input type="text" name="subtype" id="subtype" />
+      <input
+        type="text"
+        name="subType"
+        placeholder="Search subtype"
+        value={filter.subType}
+        onChange={handleChange}
+      />
       <select name="school" value={filter.school} onChange={handleChange}>
-        <option value="">All</option>
+        <option value="">School</option>
         {schools.map(school => (
           <option value={school} key={school}>
             {school}
           </option>
         ))}
       </select>
-      <select name="used" id="used" />
+      <select name="used" value={filter.used} onChange={handleChange}>
+        {usedValues.map(option => (
+          <option value={option.value} key={option.label}>
+            {option.label}
+          </option>
+        ))}
+      </select>
       <select name="mage" id="mage" />
       <select name="slot" id="slot" />
-      <button>Reset filter</button>
+      <button onClick={handleReset}>Reset filter</button>
     </div>
   );
 };

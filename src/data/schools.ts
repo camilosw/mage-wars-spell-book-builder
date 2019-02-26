@@ -1,4 +1,4 @@
-import Schools from '../types/Schools';
+import Schools from '../types/School';
 
 const schools: Schools[] = [
   'Air',

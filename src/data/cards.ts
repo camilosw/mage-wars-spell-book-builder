@@ -22,7 +22,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '8',
-    subtype: 'Light',
+    subType: 'Light',
     max: 4,
     count: {
       promo: 1
@@ -36,7 +36,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '2',
-    subtype: 'Mana',
+    subType: 'Mana',
     max: 6,
     count: {
       core: 1,
@@ -51,7 +51,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '5',
-    subtype: 'Robe',
+    subType: 'Robe',
     max: 6,
     count: {
       acp: 2
@@ -92,7 +92,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '4',
-    subtype: 'Armor',
+    subType: 'Armor',
     max: 6,
     count: {
       acw: 2
@@ -106,7 +106,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '2',
-    subtype: 'Gloves',
+    subType: 'Gloves',
     max: 6,
     count: {
       pvs: 2
@@ -120,7 +120,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '6',
-    subtype: 'Armor',
+    subType: 'Armor',
     max: 6,
     count: {
       lg: 4
@@ -134,7 +134,7 @@ const cards: Card[] = [
     school: 'Fire',
     level: '1',
     cast: '3',
-    subtype: 'Cloak',
+    subType: 'Cloak',
     max: 6,
     count: {
       acw: 2
@@ -148,7 +148,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '6',
-    subtype: 'Shadow',
+    subType: 'Shadow',
     max: 4,
     count: {
       dvn: 3
@@ -175,7 +175,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '3',
-    subtype: 'Cape, Mana',
+    subType: 'Cape, Mana',
     max: 6,
     count: {
       awl: 2
@@ -189,7 +189,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '1',
-    subtype: 'Protection',
+    subType: 'Protection',
     max: 6,
     count: {
       core: 1,
@@ -204,7 +204,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '5',
-    subtype: 'Force',
+    subType: 'Force',
     max: 4,
     count: {
       fvw: 3
@@ -218,7 +218,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '9',
-    subtype: 'Defense, Shield',
+    subType: 'Defense, Shield',
     max: 4,
     count: {
       pvs: 2
@@ -246,7 +246,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '5',
-    subtype: 'Necro, Mana',
+    subType: 'Necro, Mana',
     max: 6,
     count: {
       dvn: 2
@@ -260,7 +260,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '8',
-    subtype: 'Necro',
+    subType: 'Necro',
     max: 4,
     count: {
       dvn: 2
@@ -287,7 +287,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '6',
-    subtype: 'Defense',
+    subType: 'Defense',
     max: 6,
     count: {
       core: 1,
@@ -316,7 +316,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '3',
-    subtype: 'Mask',
+    subType: 'Mask',
     max: 6,
     count: {
       acw: 2
@@ -330,7 +330,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '2',
     cast: '4',
-    subtype: 'Metamagic',
+    subType: 'Metamagic',
     max: 4,
     count: {
       cok: 4
@@ -358,7 +358,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '2',
-    subtype: 'Mana',
+    subType: 'Mana',
     max: 6,
     count: {
       dvn: 2
@@ -385,7 +385,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '3',
     cast: '12',
-    subtype: 'Horn, Instrument',
+    subType: 'Horn, Instrument',
     max: 1,
     count: {
       pvs: 2
@@ -399,7 +399,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '8',
-    subtype: 'Mana',
+    subType: 'Mana',
     max: 4,
     count: {
       fif: 2
@@ -455,7 +455,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '2',
-    subtype: 'Healing, Staff',
+    subType: 'Healing, Staff',
     max: 6,
     count: {
       bvw: 1
@@ -483,7 +483,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '3',
-    subtype: 'Amulet',
+    subType: 'Amulet',
     max: 6,
     count: {
       acw: 2
@@ -497,7 +497,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '3',
-    subtype: 'Staff, Weapon',
+    subType: 'Staff, Weapon',
     max: 6,
     count: {
       acp: 2
@@ -525,7 +525,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '4',
-    subtype: 'Force, Armor',
+    subType: 'Force, Armor',
     max: 6,
     count: {
       afm: 2
@@ -539,7 +539,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '3',
-    subtype: 'Mana, Force',
+    subType: 'Mana, Force',
     max: 6,
     count: {
       fvw: 2
@@ -553,7 +553,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '1',
     cast: '3',
-    subtype: '0.0',
+    subType: '0.0',
     max: 4,
     count: {
       bg1: 4
@@ -567,7 +567,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '3',
     cast: '11',
-    subtype: 'Force',
+    subType: 'Force',
     max: 4,
     count: {
       fvw: 1
@@ -595,7 +595,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '3',
-    subtype: 'Mana',
+    subType: 'Mana',
     max: 4,
     count: {
       fif: 2
@@ -609,7 +609,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '3',
-    subtype: 'Gloves',
+    subType: 'Gloves',
     max: 6,
     count: {
       lg: 3
@@ -636,7 +636,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Helmet',
+    subType: 'Helmet',
     max: 6,
     count: {
       afm: 2
@@ -663,7 +663,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '5',
-    subtype: 'Mace, Weapon',
+    subType: 'Mace, Weapon',
     max: 6,
     count: {
       acw: 2
@@ -704,7 +704,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Retribution, Helm',
+    subType: 'Retribution, Helm',
     max: 6,
     count: {
       pvs: 2
@@ -744,7 +744,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '5',
-    subtype: 'Weapon, Spear',
+    subType: 'Weapon, Spear',
     max: 4,
     count: {
       lg: 2
@@ -758,7 +758,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '4',
-    subtype: 'Illusion',
+    subType: 'Illusion',
     max: 6,
     count: {
       afm: 2
@@ -772,7 +772,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '4',
-    subtype: 'Weapon, Polearm',
+    subType: 'Weapon, Polearm',
     max: 6,
     count: {
       awl: 2
@@ -800,7 +800,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Amulet, Mana, Healing, Dsjer-Tet',
+    subType: 'Amulet, Mana, Healing, Dsjer-Tet',
     max: 6,
     count: {
       afm: 2
@@ -814,7 +814,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '4',
-    subtype: 'Weapon',
+    subType: 'Weapon',
     max: 6,
     count: {
       bvw: 2
@@ -828,7 +828,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '3',
-    subtype: 'Weapon',
+    subType: 'Weapon',
     max: 6,
     count: {
       bvw: 2
@@ -856,7 +856,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '2',
-    subtype: 'Belt',
+    subType: 'Belt',
     max: 6,
     count: {
       awl: 3
@@ -897,7 +897,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '2',
-    subtype: 'Breeches',
+    subType: 'Breeches',
     max: 6,
     count: {
       bvw: 2
@@ -925,7 +925,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '2',
-    subtype: 'Armor',
+    subType: 'Armor',
     max: 6,
     count: {
       awl: 3
@@ -939,7 +939,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '1',
     cast: '6',
-    subtype: 'Armor',
+    subType: 'Armor',
     max: 6,
     count: {
       pvs: 4
@@ -953,7 +953,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '10',
-    subtype: 'Necro, Tome',
+    subType: 'Necro, Tome',
     max: 4,
     count: {
       dvn: 2
@@ -1010,7 +1010,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '4',
-    subtype: 'Mana',
+    subType: 'Mana',
     max: 6,
     count: {
       dvn: 4
@@ -1024,7 +1024,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '4',
-    subtype: 'Healing',
+    subType: 'Healing',
     max: 6,
     count: {
       dvn: 3
@@ -1052,7 +1052,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '6',
-    subtype: 'Mana',
+    subType: 'Mana',
     max: 6,
     count: {
       core: 2,
@@ -1067,7 +1067,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '5',
-    subtype: 'Tome',
+    subType: 'Tome',
     max: 4,
     count: {
       lg: 2
@@ -1094,7 +1094,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '3',
-    subtype: 'Cloak',
+    subType: 'Cloak',
     max: 4,
     count: {
       bvw: 1
@@ -1108,7 +1108,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '3',
-    subtype: 'Cloak',
+    subType: 'Cloak',
     max: 6,
     count: {
       pvs: 2
@@ -1122,7 +1122,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '7',
-    subtype: 'Mana',
+    subType: 'Mana',
     max: 4,
     count: {
       fvw: 2
@@ -1136,7 +1136,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '6',
-    subtype: 'Armor',
+    subType: 'Armor',
     max: 4,
     count: {
       pvs: 2
@@ -1150,7 +1150,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '9',
-    subtype: 'Defense',
+    subType: 'Defense',
     max: 4,
     count: {
       cok: 3
@@ -1179,7 +1179,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '4',
-    subtype: 'Cloak',
+    subType: 'Cloak',
     max: 6,
     count: {
       bvw: 1
@@ -1193,7 +1193,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '4',
-    subtype: 'Bow, Weapon',
+    subType: 'Bow, Weapon',
     max: 6,
     count: {
       acp: 2
@@ -1207,7 +1207,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Mana',
+    subType: 'Mana',
     max: 6,
     count: {
       core: 1,
@@ -1222,7 +1222,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '2',
-    subtype: 'Mana',
+    subType: 'Mana',
     max: 6,
     count: {
       core: 1,
@@ -1237,7 +1237,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '3',
-    subtype: 'Mana',
+    subType: 'Mana',
     max: 6,
     count: {
       fvw: 2
@@ -1251,7 +1251,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '2',
-    subtype: 'Mana',
+    subType: 'Mana',
     max: 6,
     count: {
       core: 1,
@@ -1266,7 +1266,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '3',
-    subtype: 'Healing',
+    subType: 'Healing',
     max: 6,
     count: {
       promo: 1
@@ -1280,7 +1280,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '1',
     cast: '2',
-    subtype: 'Mana, Ring',
+    subType: 'Mana, Ring',
     max: 6,
     count: {
       pvs: 2
@@ -1294,7 +1294,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '1',
     cast: '3',
-    subtype: 'Ring',
+    subType: 'Ring',
     max: 6,
     count: {
       pvs: 2
@@ -1308,7 +1308,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '4',
-    subtype: 'Mana, Weapon, Staff',
+    subType: 'Mana, Weapon, Staff',
     max: 6,
     count: {
       bvw: 2
@@ -1322,7 +1322,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '10',
-    subtype: 'Curse',
+    subType: 'Curse',
     max: 4,
     count: {
       fvw: 2
@@ -1336,7 +1336,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '4',
-    subtype: 'Force, Weapon, Polearm',
+    subType: 'Force, Weapon, Polearm',
     max: 4,
     count: {
       afm: 2
@@ -1350,7 +1350,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '2',
     cast: '8',
-    subtype: 'Spear, Weapon',
+    subType: 'Spear, Weapon',
     max: 4,
     count: {
       pvs: 2
@@ -1364,7 +1364,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '3',
-    subtype: 'Mana, Ring',
+    subType: 'Mana, Ring',
     max: 6,
     count: {
       pvs: 2
@@ -1378,7 +1378,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '4',
-    subtype: 'Mana, Robe',
+    subType: 'Mana, Robe',
     max: 6,
     count: {
       bvw: 2
@@ -1405,7 +1405,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '8',
-    subtype: 'Shield, Defense',
+    subType: 'Shield, Defense',
     max: 4,
     count: {
       lg: 4
@@ -1474,7 +1474,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '5',
-    subtype: 'Boots',
+    subType: 'Boots',
     max: 6,
     count: {
       pvs: 2
@@ -1501,7 +1501,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '2',
-    subtype: 'Command, Helm',
+    subType: 'Command, Helm',
     max: 6,
     count: {
       awl: 2
@@ -1515,7 +1515,7 @@ const cards: Card[] = [
     school: 'Holy, Nature',
     level: '1&1',
     cast: '6',
-    subtype: 'Healing',
+    subType: 'Healing',
     max: 4,
     count: {
       cok: 4
@@ -1529,7 +1529,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '2',
     cast: '8',
-    subtype: 'Mana',
+    subType: 'Mana',
     max: 4,
     count: {
       core: 1
@@ -1543,7 +1543,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '8',
-    subtype: 'Sword, Weapon',
+    subType: 'Sword, Weapon',
     max: 4,
     count: {
       pvs: 2
@@ -1557,7 +1557,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '3',
-    subtype: 'Artifat, Defense',
+    subType: 'Artifat, Defense',
     max: 6,
     count: {
       afm: 2
@@ -1571,7 +1571,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '4',
-    subtype: 'Plate',
+    subType: 'Plate',
     max: 6,
     count: {
       awl: 3
@@ -1598,7 +1598,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '7',
-    subtype: 'Vine',
+    subType: 'Vine',
     max: 4,
     count: {
       dvn: 2
@@ -1612,7 +1612,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '1',
     cast: '5',
-    subtype: 'Instrument, Lyre',
+    subType: 'Instrument, Lyre',
     max: 6,
     count: {
       pvs: 2
@@ -1626,7 +1626,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '5',
-    subtype: 'Weapon, Sword',
+    subType: 'Weapon, Sword',
     max: 4,
     count: {
       lg: 4
@@ -1640,7 +1640,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Healing',
+    subType: 'Healing',
     max: 6,
     count: {
       dvn: 4
@@ -1667,7 +1667,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '1',
     cast: '3',
-    subtype: 'Cloak, Hydro',
+    subType: 'Cloak, Hydro',
     max: 4,
     count: {
       lg: 4
@@ -1695,7 +1695,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '3',
-    subtype: 'Amulet, Mana',
+    subType: 'Amulet, Mana',
     max: 6,
     count: {
       bvw: 2
@@ -1709,7 +1709,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '5',
-    subtype: 'Belt',
+    subType: 'Belt',
     max: 6,
     count: {
       bvw: 2
@@ -1723,7 +1723,7 @@ const cards: Card[] = [
     school: 'War',
     level: '3',
     cast: '12',
-    subtype: 'War Machine',
+    subType: 'War Machine',
     max: 4,
     count: {
       fvw: 2
@@ -1737,7 +1737,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '8',
-    subtype: 'Altar, Artifact',
+    subType: 'Altar, Artifact',
     max: 4,
     count: {
       fif: 2
@@ -1751,7 +1751,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '9',
-    subtype: 'Altar, Artifact',
+    subType: 'Altar, Artifact',
     max: 4,
     count: {
       fif: 2
@@ -1765,7 +1765,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '7',
-    subtype: 'Artifact',
+    subType: 'Artifact',
     max: 1,
     count: {
       lg: 2
@@ -1779,7 +1779,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '7',
-    subtype: 'Temple',
+    subType: 'Temple',
     max: 1,
     count: {
       promo: 1
@@ -1793,7 +1793,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '9',
-    subtype: 'Skeleton, Altar',
+    subType: 'Skeleton, Altar',
     max: 4,
     count: {
       dvn: 2
@@ -1807,7 +1807,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '4',
-    subtype: 'Statue, Artifact',
+    subType: 'Statue, Artifact',
     max: 4,
     count: {
       bg1: 3
@@ -1821,7 +1821,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '8',
-    subtype: 'Totem',
+    subType: 'Totem',
     max: 4,
     count: {
       core: 1,
@@ -1836,7 +1836,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '4',
-    subtype: 'Outpost',
+    subType: 'Outpost',
     max: 6,
     count: {
       fvw: 3
@@ -1850,7 +1850,7 @@ const cards: Card[] = [
     school: 'War',
     level: '3',
     cast: '10',
-    subtype: 'Outpost',
+    subType: 'Outpost',
     max: 4,
     count: {
       fif: 3
@@ -1864,7 +1864,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '8',
-    subtype: 'War Machine',
+    subType: 'War Machine',
     max: 4,
     count: {
       lg: 2
@@ -1878,7 +1878,7 @@ const cards: Card[] = [
     school: 'War',
     level: '3',
     cast: '12',
-    subtype: 'Outpost',
+    subType: 'Outpost',
     max: 4,
     count: {
       fvw: 1
@@ -1892,7 +1892,7 @@ const cards: Card[] = [
     school: 'War, Fire',
     level: '1&1',
     cast: '8',
-    subtype: 'Structure',
+    subType: 'Structure',
     max: 4,
     count: {
       core: 2,
@@ -1908,7 +1908,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '2',
     cast: '7',
-    subtype: 'Aquatic',
+    subType: 'Aquatic',
     max: 4,
     count: {
       pvs: 4
@@ -1922,7 +1922,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '4',
-    subtype: 'Plant, Vine',
+    subType: 'Plant, Vine',
     max: 6,
     count: {
       dvn: 6
@@ -1936,7 +1936,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '5',
-    subtype: 'Healing, Light',
+    subType: 'Healing, Light',
     max: 6,
     count: {
       pvs: 6
@@ -1950,7 +1950,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '7',
-    subtype: 'Outpost',
+    subType: 'Outpost',
     max: 1,
     count: {
       fif: 2
@@ -1964,7 +1964,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '2',
     cast: '6',
-    subtype: 'Aquatic',
+    subType: 'Aquatic',
     max: 4,
     count: {
       pvs: 4
@@ -1978,7 +1978,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '7',
-    subtype: 'Plant, Flower, Vine',
+    subType: 'Plant, Flower, Vine',
     max: 4,
     count: {
       dvn: 4
@@ -1992,7 +1992,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '7',
-    subtype: 'Banner',
+    subType: 'Banner',
     max: 1,
     count: {
       pvs: 2
@@ -2006,7 +2006,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '9',
-    subtype: 'Artifact',
+    subType: 'Artifact',
     max: 1,
     count: {
       core: 1,
@@ -2021,7 +2021,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '8',
-    subtype: 'Plant',
+    subType: 'Plant',
     max: 4,
     count: {
       pvs: 4
@@ -2035,7 +2035,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '4',
-    subtype: 'Protection, Rune',
+    subType: 'Protection, Rune',
     max: 6,
     count: {
       cok: 6
@@ -2049,7 +2049,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '7',
-    subtype: 'Plant, Tree',
+    subType: 'Plant, Tree',
     max: 4,
     count: {
       dvn: 3
@@ -2063,7 +2063,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '1',
     cast: '4',
-    subtype: 'Cloud',
+    subType: 'Cloud',
     max: 6,
     count: {
       core: 2,
@@ -2079,7 +2079,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '8',
-    subtype: "V'Tar, Artifact",
+    subType: "V'Tar, Artifact",
     max: 1,
     count: {
       bg1: 2
@@ -2093,7 +2093,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '4',
-    subtype: 'Outpost',
+    subType: 'Outpost',
     max: 6,
     count: {
       fvw: 3
@@ -2107,7 +2107,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '6',
     cast: '12',
-    subtype: 'Portal',
+    subType: 'Portal',
     max: 1,
     count: {
       core: 1,
@@ -2122,7 +2122,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '4',
     cast: '14',
-    subtype: 'Portal',
+    subType: 'Portal',
     max: 1,
     count: {
       core: 1,
@@ -2150,7 +2150,7 @@ const cards: Card[] = [
     school: 'Earth',
     level: '2',
     cast: '8',
-    subtype: 'Obelisk, Artifact',
+    subType: 'Obelisk, Artifact',
     max: 1,
     count: {
       bg1: 2
@@ -2164,7 +2164,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '5',
-    subtype: 'Temple',
+    subType: 'Temple',
     max: 6,
     count: {
       core: 1,
@@ -2180,7 +2180,7 @@ const cards: Card[] = [
     school: 'War, Earth',
     level: '1&1',
     cast: '6',
-    subtype: 'Artifact, Obelisk',
+    subType: 'Artifact, Obelisk',
     max: 1,
     count: {
       fif: 2
@@ -2194,7 +2194,7 @@ const cards: Card[] = [
     school: 'War, Earth',
     level: '2',
     cast: '8',
-    subtype: 'Tunnel',
+    subType: 'Tunnel',
     max: 4,
     count: {
       promo: 1
@@ -2208,7 +2208,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '9',
-    subtype: 'Artifact',
+    subType: 'Artifact',
     max: 1,
     count: {
       core: 1,
@@ -2223,7 +2223,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '4',
     cast: '15',
-    subtype: 'Portal',
+    subType: 'Portal',
     max: 1,
     count: {
       core: 1,
@@ -2238,7 +2238,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '5',
-    subtype: 'Temple',
+    subType: 'Temple',
     max: 6,
     count: {
       pvs: 2
@@ -2252,7 +2252,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '5',
-    subtype: 'Mana',
+    subType: 'Mana',
     max: 6,
     count: {
       core: 5,
@@ -2268,7 +2268,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '5',
-    subtype: 'Mana, Plant',
+    subType: 'Mana, Plant',
     max: 6,
     count: {
       core: 5,
@@ -2284,7 +2284,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '2',
     cast: '7',
-    subtype: 'Artifact, Obelisk, Mana',
+    subType: 'Artifact, Obelisk, Mana',
     max: 4,
     count: {
       fvw: 3
@@ -2298,7 +2298,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '3',
     cast: '12',
-    subtype: 'Portal, Mana',
+    subType: 'Portal, Mana',
     max: 1,
     count: {
       core: 1,
@@ -2326,7 +2326,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '6',
-    subtype: 'Statue, Artifact',
+    subType: 'Statue, Artifact',
     max: 1,
     count: {
       lg: 2
@@ -2340,7 +2340,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '6',
-    subtype: 'Psychic, Projection',
+    subType: 'Psychic, Projection',
     max: 4,
     count: {
       lg: 2
@@ -2354,7 +2354,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '8',
-    subtype: 'Plant, Tree',
+    subType: 'Plant, Tree',
     max: 4,
     count: {
       core: 1,
@@ -2370,7 +2370,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '2',
     cast: '8',
-    subtype: 'Artifact, Obelisk',
+    subType: 'Artifact, Obelisk',
     max: 1,
     count: {
       core: 1,
@@ -2385,7 +2385,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '3',
     cast: '7',
-    subtype: 'Plant, Flower, Vine',
+    subType: 'Plant, Flower, Vine',
     max: 4,
     count: {
       dvn: 4
@@ -2399,7 +2399,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '4',
     cast: '14',
-    subtype: 'Portal, Rune',
+    subType: 'Portal, Rune',
     max: 1,
     count: {
       core: 1,
@@ -2414,7 +2414,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '9',
-    subtype: 'Flame, Light',
+    subType: 'Flame, Light',
     max: 1,
     count: {
       pvs: 2
@@ -2428,7 +2428,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '2',
     cast: '8',
-    subtype: 'Cloud, Poison',
+    subType: 'Cloud, Poison',
     max: 4,
     count: {
       core: 2,
@@ -2456,7 +2456,7 @@ const cards: Card[] = [
     school: 'Air, Water',
     level: '1&1',
     cast: '8',
-    subtype: 'Cloud, Weather',
+    subType: 'Cloud, Weather',
     max: 4,
     count: {
       bg1: 4
@@ -2470,7 +2470,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '7',
-    subtype: 'Totem',
+    subType: 'Totem',
     max: 4,
     count: {
       core: 1,
@@ -2485,7 +2485,7 @@ const cards: Card[] = [
     school: 'Holy, Nature',
     level: '1&1',
     cast: '6',
-    subtype: 'Well',
+    subType: 'Well',
     max: 4,
     count: {
       fvw: 4
@@ -2499,7 +2499,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '2',
     cast: '7',
-    subtype: 'Cloud',
+    subType: 'Cloud',
     max: 1,
     count: {
       fif: 2
@@ -2527,7 +2527,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '7',
-    subtype: 'Plant, Tree',
+    subType: 'Plant, Tree',
     max: 1,
     count: {
       dvn: 6
@@ -2541,7 +2541,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '3',
-    subtype: 'Plant, Vine',
+    subType: 'Plant, Vine',
     max: 6,
     count: {
       dvn: 6
@@ -2555,7 +2555,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '1',
     cast: '5',
-    subtype: 'Aquatic',
+    subType: 'Aquatic',
     max: 6,
     count: {
       pvs: 6
@@ -2569,7 +2569,7 @@ const cards: Card[] = [
     school: 'Earth',
     level: '2',
     cast: '8',
-    subtype: 'Elevated',
+    subType: 'Elevated',
     max: 4,
     count: {
       pvs: 4
@@ -2583,7 +2583,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '7',
-    subtype: 'Plant, Vine',
+    subType: 'Plant, Vine',
     max: 4,
     count: {
       dvn: 4
@@ -2597,7 +2597,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '8',
-    subtype: 'Force, Mana, Artifact',
+    subType: 'Force, Mana, Artifact',
     max: 1,
     count: {
       core: 1,
@@ -2612,7 +2612,7 @@ const cards: Card[] = [
     school: 'Nature, Water',
     level: '1&1',
     cast: '9',
-    subtype: 'Aquatic, Swamp',
+    subType: 'Aquatic, Swamp',
     max: 4,
     count: {
       pvs: 4
@@ -2626,7 +2626,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '5',
-    subtype: 'Plant, Vine',
+    subType: 'Plant, Vine',
     max: 6,
     count: {
       core: 3,
@@ -2642,7 +2642,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '3',
     cast: '10',
-    subtype: 'Temple, Portal',
+    subType: 'Temple, Portal',
     max: 1,
     count: {
       core: 1,
@@ -2657,7 +2657,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '9',
-    subtype: 'Temple',
+    subType: 'Temple',
     max: 4,
     count: {
       core: 1,
@@ -2672,7 +2672,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '5',
-    subtype: 'Temple',
+    subType: 'Temple',
     max: 6,
     count: {
       pvs: 2
@@ -2686,7 +2686,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '8',
-    subtype: 'Temple',
+    subType: 'Temple',
     max: 4,
     count: {
       core: 1,
@@ -2701,7 +2701,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '7',
-    subtype: 'Totem',
+    subType: 'Totem',
     max: 4,
     count: {
       core: 1,
@@ -2716,7 +2716,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '2',
     cast: '8',
-    subtype: 'Teleport, Portal',
+    subType: 'Teleport, Portal',
     max: 4,
     count: {
       bg1: 4
@@ -2730,7 +2730,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '9',
-    subtype: 'Plant, Tree',
+    subType: 'Plant, Tree',
     max: 1,
     count: {
       dvn: 2
@@ -2744,7 +2744,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '6',
-    subtype: 'Skeleton',
+    subType: 'Skeleton',
     max: 6,
     count: {
       dvn: 6
@@ -2771,7 +2771,7 @@ const cards: Card[] = [
     school: 'Fire',
     level: '2',
     cast: '7',
-    subtype: 'Flame',
+    subType: 'Flame',
     max: 4,
     count: {
       core: 2,
@@ -2786,7 +2786,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '6',
-    subtype: 'Force',
+    subType: 'Force',
     max: 4,
     count: {
       bg1: 6
@@ -2813,7 +2813,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '2',
     cast: '7',
-    subtype: 'Cloud, Poison',
+    subType: 'Cloud, Poison',
     max: 4,
     count: {
       lg: 4
@@ -2827,7 +2827,7 @@ const cards: Card[] = [
     school: 'Earth',
     level: '2',
     cast: '8',
-    subtype: 'Metal',
+    subType: 'Metal',
     max: 4,
     count: {
       cok: 4
@@ -2841,7 +2841,7 @@ const cards: Card[] = [
     school: 'Earth',
     level: '2',
     cast: '7',
-    subtype: 'Stone',
+    subType: 'Stone',
     max: 4,
     count: {
       core: 2,
@@ -2856,7 +2856,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '5',
-    subtype: 'Plant',
+    subType: 'Plant',
     max: 6,
     count: {
       core: 2,
@@ -2872,7 +2872,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '3',
     cast: '12',
-    subtype: 'Hydro',
+    subType: 'Hydro',
     max: 1,
     count: {
       pvs: 2
@@ -2886,7 +2886,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '2',
     cast: '7',
-    subtype: 'Tower',
+    subType: 'Tower',
     max: 4,
     count: {
       cok: 2
@@ -2900,7 +2900,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '1',
     cast: '5',
-    subtype: 'Ship, Wreckage',
+    subType: 'Ship, Wreckage',
     max: 6,
     count: {
       pvs: 2
@@ -2914,7 +2914,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '8',
-    subtype: 'Artifact, Temple',
+    subType: 'Artifact, Temple',
     max: 1,
     count: {
       dvn: 2
@@ -2928,7 +2928,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '5',
-    subtype: 'Dark Elf, Cleric',
+    subType: 'Dark Elf, Cleric',
     max: 6,
     count: {
       dvn: 6
@@ -2942,7 +2942,7 @@ const cards: Card[] = [
     school: 'Dark, Fire',
     level: '4&2',
     cast: '24',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 4,
     count: {
       core: 1,
@@ -2957,7 +2957,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '9',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 4,
     count: {
       acw: 2
@@ -2971,7 +2971,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '5',
     cast: '15',
-    subtype: 'Knight',
+    subType: 'Knight',
     max: 4,
     count: {
       pvs: 3
@@ -2985,7 +2985,7 @@ const cards: Card[] = [
     school: 'HOly',
     level: '8',
     cast: '24',
-    subtype: 'Dragon',
+    subType: 'Dragon',
     max: 4,
     count: {
       promo: 1
@@ -2999,7 +2999,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '8',
-    subtype: 'Animal, Reptile',
+    subType: 'Animal, Reptile',
     max: 4,
     count: {
       bvw: 2
@@ -3013,7 +3013,7 @@ const cards: Card[] = [
     school: 'War',
     level: '3',
     cast: '11',
-    subtype: 'Dwarf, Soldier',
+    subType: 'Dwarf, Soldier',
     max: 4,
     count: {
       fif: 4
@@ -3027,7 +3027,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '4',
     cast: '14',
-    subtype: 'Cleric',
+    subType: 'Cleric',
     max: 4,
     count: {
       pvs: 3
@@ -3041,7 +3041,7 @@ const cards: Card[] = [
     school: 'Arcane, Dark',
     level: '5',
     cast: '20',
-    subtype: 'Manticore',
+    subType: 'Manticore',
     max: 4,
     count: {
       promo: 1
@@ -3055,7 +3055,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '5',
-    subtype: 'Cleric',
+    subType: 'Cleric',
     max: 6,
     count: {
       core: 4,
@@ -3070,7 +3070,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '8',
-    subtype: 'Knight, Soldier',
+    subType: 'Knight, Soldier',
     max: 4,
     count: {
       fif: 4
@@ -3084,7 +3084,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '8',
-    subtype: 'Animal, Rodent',
+    subType: 'Animal, Rodent',
     max: 4,
     count: {
       bvw: 2
@@ -3098,7 +3098,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '3',
     cast: '12',
-    subtype: 'Knight, Soldier',
+    subType: 'Knight, Soldier',
     max: 4,
     count: {
       acp: 2
@@ -3112,7 +3112,7 @@ const cards: Card[] = [
     school: 'Arcane, Air',
     level: '2',
     cast: '8',
-    subtype: 'Genie',
+    subType: 'Genie',
     max: 4,
     count: {
       bvw: 2
@@ -3126,7 +3126,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '5',
-    subtype: 'Animal, Canine',
+    subType: 'Animal, Canine',
     max: 6,
     count: {
       core: 4,
@@ -3141,7 +3141,7 @@ const cards: Card[] = [
     school: 'Dark, Water',
     level: '4',
     cast: '15',
-    subtype: 'Pirate, Skeleton, Undead',
+    subType: 'Pirate, Skeleton, Undead',
     max: 4,
     count: {
       pvs: 3
@@ -3155,7 +3155,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '12',
-    subtype: 'Vampire, Demon',
+    subType: 'Vampire, Demon',
     max: 4,
     count: {
       fif: 4
@@ -3169,7 +3169,7 @@ const cards: Card[] = [
     school: 'War',
     level: '4',
     cast: '15',
-    subtype: 'Minotaur, Soldier',
+    subType: 'Minotaur, Soldier',
     max: 4,
     count: {
       fif: 4
@@ -3183,7 +3183,7 @@ const cards: Card[] = [
     school: 'War',
     level: '3',
     cast: '12',
-    subtype: 'Orc, Soldier',
+    subType: 'Orc, Soldier',
     max: 4,
     count: {
       promo: 1
@@ -3197,7 +3197,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '2',
     cast: '7',
-    subtype: 'Gremlin',
+    subType: 'Gremlin',
     max: 4,
     count: {
       core: 2,
@@ -3212,7 +3212,7 @@ const cards: Card[] = [
     school: 'Nature, War',
     level: '2&1',
     cast: '13',
-    subtype: 'Soldier, Troll',
+    subType: 'Soldier, Troll',
     max: 4,
     count: {
       cok: 4
@@ -3226,7 +3226,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '4',
     cast: '15',
-    subtype: 'Knight, Soldier',
+    subType: 'Knight, Soldier',
     max: 4,
     count: {
       core: 1,
@@ -3241,7 +3241,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '6',
-    subtype: 'Angel',
+    subType: 'Angel',
     max: 4,
     count: {
       acp: 2
@@ -3255,7 +3255,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '9',
-    subtype: 'Angel, Cleric',
+    subType: 'Angel, Cleric',
     max: 4,
     count: {
       pvs: 2
@@ -3269,7 +3269,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '4',
     cast: '17',
-    subtype: 'Demon, Canine',
+    subType: 'Demon, Canine',
     max: 4,
     count: {
       fif: 3
@@ -3283,7 +3283,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '4',
     cast: '15',
-    subtype: 'Animal, Cat',
+    subType: 'Animal, Cat',
     max: 4,
     count: {
       core: 1,
@@ -3299,7 +3299,7 @@ const cards: Card[] = [
     school: 'Water, Nature',
     level: '3',
     cast: '13',
-    subtype: 'Animal, Aquatic, Crustacean',
+    subType: 'Animal, Aquatic, Crustacean',
     max: 4,
     count: {
       pvs: 4
@@ -3313,7 +3313,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '5',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 6,
     count: {
       acw: 3
@@ -3327,7 +3327,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '3',
     cast: '13',
-    subtype: 'Griffin',
+    subType: 'Griffin',
     max: 4,
     count: {
       pvs: 4
@@ -3341,7 +3341,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '13',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 4,
     count: {
       core: 2,
@@ -3356,7 +3356,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '4',
-    subtype: 'Animal, Reptile, Serpent',
+    subType: 'Animal, Reptile, Serpent',
     max: 6,
     count: {
       bvw: 3
@@ -3370,7 +3370,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '5',
-    subtype: 'Animal, Bat',
+    subType: 'Animal, Bat',
     max: 6,
     count: {
       core: 3,
@@ -3385,7 +3385,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '4',
     cast: '16',
-    subtype: 'Serpent',
+    subType: 'Serpent',
     max: 4,
     count: {
       core: 2,
@@ -3400,7 +3400,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '5',
-    subtype: 'Cleric',
+    subType: 'Cleric',
     max: 6,
     count: {
       pvs: 6
@@ -3414,7 +3414,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '9',
-    subtype: 'Insect',
+    subType: 'Insect',
     max: 4,
     count: {
       promo: 1
@@ -3428,7 +3428,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '8',
-    subtype: 'Undead, Skeleton, Canine',
+    subType: 'Undead, Skeleton, Canine',
     max: 4,
     count: {
       dvn: 4
@@ -3442,7 +3442,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '3',
     cast: '12',
-    subtype: 'Aquatic, Deptonne',
+    subType: 'Aquatic, Deptonne',
     max: 4,
     count: {
       pvs: 4
@@ -3456,7 +3456,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '2',
     cast: '8',
-    subtype: 'Aquatic, Cleric, Deptonne',
+    subType: 'Aquatic, Cleric, Deptonne',
     max: 4,
     count: {
       pvs: 4
@@ -3470,7 +3470,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '3',
     cast: '13',
-    subtype: 'Ooze',
+    subType: 'Ooze',
     max: 4,
     count: {
       dvn: 4
@@ -3484,7 +3484,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '3',
     cast: '12',
-    subtype: 'Animal, Canine',
+    subType: 'Animal, Canine',
     max: 4,
     count: {
       cok: 4
@@ -3498,7 +3498,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '5',
-    subtype: 'Cleric',
+    subType: 'Cleric',
     max: 6,
     count: {
       acp: 3
@@ -3512,7 +3512,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '4',
     cast: '14',
-    subtype: 'Animal, Horse',
+    subType: 'Animal, Horse',
     max: 4,
     count: {
       pvs: 3
@@ -3526,7 +3526,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '4',
     cast: '14',
-    subtype: 'Animal',
+    subType: 'Animal',
     max: 4,
     count: {
       promo: 1
@@ -3540,7 +3540,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '9',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 4,
     count: {
       acw: 2
@@ -3554,7 +3554,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '14',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 4,
     count: {
       pvs: 4
@@ -3568,7 +3568,7 @@ const cards: Card[] = [
     school: 'War',
     level: '3',
     cast: '11',
-    subtype: 'Dwarf, Soldier',
+    subType: 'Dwarf, Soldier',
     max: 4,
     count: {
       fvw: 4
@@ -3582,7 +3582,7 @@ const cards: Card[] = [
     school: 'War',
     level: '3',
     cast: '11',
-    subtype: 'Dwarf, Soldier',
+    subType: 'Dwarf, Soldier',
     max: 4,
     count: {
       lg: 4
@@ -3596,7 +3596,7 @@ const cards: Card[] = [
     school: 'War',
     level: '3',
     cast: '11',
-    subtype: 'Soldier, Dwarf',
+    subType: 'Soldier, Dwarf',
     max: 4,
     count: {
       cok: 4
@@ -3610,7 +3610,7 @@ const cards: Card[] = [
     school: 'Earth',
     level: '5',
     cast: '20',
-    subtype: 'Elemental',
+    subType: 'Elemental',
     max: 4,
     count: {
       fvw: 2
@@ -3624,7 +3624,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '9',
-    subtype: 'Animal',
+    subType: 'Animal',
     max: 4,
     count: {
       promo: 1
@@ -3638,7 +3638,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '3',
     cast: '5',
-    subtype: 'Knight, Soldier',
+    subType: 'Knight, Soldier',
     max: 4,
     count: {
       acp: 2
@@ -3652,7 +3652,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '4',
     cast: '15',
-    subtype: 'Knight',
+    subType: 'Knight',
     max: 4,
     count: {
       pvs: 3
@@ -3666,7 +3666,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '5',
-    subtype: 'High Elf, Soldier',
+    subType: 'High Elf, Soldier',
     max: 6,
     count: {
       awl: 3
@@ -3680,7 +3680,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '9',
-    subtype: 'Animal, Reptile',
+    subType: 'Animal, Reptile',
     max: 4,
     count: {
       core: 2,
@@ -3695,7 +3695,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '5',
-    subtype: 'Psyoculus',
+    subType: 'Psyoculus',
     max: 6,
     count: {
       afm: 3
@@ -3709,7 +3709,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '3',
     cast: '12',
-    subtype: 'Faerie',
+    subType: 'Faerie',
     max: 4,
     count: {
       core: 1,
@@ -3724,7 +3724,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '5',
-    subtype: 'Animal, Cat',
+    subType: 'Animal, Cat',
     max: 6,
     count: {
       core: 2,
@@ -3739,7 +3739,7 @@ const cards: Card[] = [
     school: 'Fire',
     level: '6',
     cast: '20',
-    subtype: 'Flame, Elemental',
+    subType: 'Flame, Elemental',
     max: 4,
     count: {
       lg: 4
@@ -3753,7 +3753,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '5',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 6,
     count: {
       core: 3,
@@ -3768,7 +3768,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '4',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 6,
     count: {
       acw: 3
@@ -3782,7 +3782,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '13',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 4,
     count: {
       core: 2,
@@ -3797,7 +3797,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '5',
-    subtype: 'Force, Construct',
+    subType: 'Force, Construct',
     max: 6,
     count: {
       afm: 3
@@ -3811,7 +3811,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '9',
-    subtype: 'Force, Construct, Golem',
+    subType: 'Force, Construct, Golem',
     max: 4,
     count: {
       afm: 2
@@ -3825,7 +3825,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '3',
-    subtype: 'Force, Construct',
+    subType: 'Force, Construct',
     max: 6,
     count: {
       afm: 3
@@ -3839,7 +3839,7 @@ const cards: Card[] = [
     school: 'Nature, Air',
     level: '3&1',
     cast: '16',
-    subtype: 'Animal, Cervine',
+    subType: 'Animal, Cervine',
     max: 4,
     count: {
       cok: 3
@@ -3853,7 +3853,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '3',
     cast: '11',
-    subtype: 'Gargoyle',
+    subType: 'Gargoyle',
     max: 4,
     count: {
       cok: 4
@@ -3867,7 +3867,7 @@ const cards: Card[] = [
     school: 'War, Water',
     level: '3',
     cast: '13',
-    subtype: 'Pirate',
+    subType: 'Pirate',
     max: 4,
     count: {
       pvs: 3
@@ -3881,7 +3881,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '4',
     cast: '15',
-    subtype: 'Insect, Spider',
+    subType: 'Insect, Spider',
     max: 4,
     count: {
       cok: 4
@@ -3895,7 +3895,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '9',
-    subtype: 'Angel',
+    subType: 'Angel',
     max: 4,
     count: {
       acp: 2
@@ -3909,7 +3909,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '9',
-    subtype: 'Goblin, Soldier',
+    subType: 'Goblin, Soldier',
     max: 4,
     count: {
       fif: 4
@@ -3923,7 +3923,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '8',
-    subtype: 'Goblin, Soldier',
+    subType: 'Goblin, Soldier',
     max: 4,
     count: {
       fvw: 4
@@ -3937,7 +3937,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '5',
-    subtype: 'Goblin, Soldier',
+    subType: 'Goblin, Soldier',
     max: 6,
     count: {
       fvw: 4
@@ -3951,7 +3951,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '4',
-    subtype: 'Goblin, Soldier',
+    subType: 'Goblin, Soldier',
     max: 6,
     count: {
       fvw: 6
@@ -3965,7 +3965,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '3',
-    subtype: 'Goblin, Soldier',
+    subType: 'Goblin, Soldier',
     max: 6,
     count: {
       awl: 3
@@ -3979,7 +3979,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '7',
-    subtype: 'Goblin, Soldier',
+    subType: 'Goblin, Soldier',
     max: 4,
     count: {
       fvw: 4
@@ -3993,7 +3993,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '4',
     cast: '15',
-    subtype: 'Lycanthrope, Canine',
+    subType: 'Lycanthrope, Canine',
     max: 4,
     count: {
       core: 1,
@@ -4009,7 +4009,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '4',
     cast: '16',
-    subtype: 'Serpent',
+    subType: 'Serpent',
     max: 4,
     count: {
       core: 1,
@@ -4024,7 +4024,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '2',
     cast: '9',
-    subtype: 'Gorgon, Serpent',
+    subType: 'Gorgon, Serpent',
     max: 6,
     count: {
       promo: 1
@@ -4038,7 +4038,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '3',
     cast: '12',
-    subtype: 'Angel',
+    subType: 'Angel',
     max: 4,
     count: {
       core: 2,
@@ -4053,7 +4053,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '10',
-    subtype: 'Spirit',
+    subType: 'Spirit',
     max: 4,
     count: {
       dvn: 4
@@ -4067,7 +4067,7 @@ const cards: Card[] = [
     school: 'War',
     level: '4',
     cast: '15',
-    subtype: 'Dwarf, Soldier',
+    subType: 'Dwarf, Soldier',
     max: 4,
     count: {
       fvw: 2
@@ -4081,7 +4081,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '8',
-    subtype: 'Animal, Canine',
+    subType: 'Animal, Canine',
     max: 4,
     count: {
       bg1: 4
@@ -4095,7 +4095,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '3',
     cast: '12',
-    subtype: 'Angel',
+    subType: 'Angel',
     max: 4,
     count: {
       cok: 4
@@ -4109,7 +4109,7 @@ const cards: Card[] = [
     school: 'War',
     level: '3',
     cast: '11',
-    subtype: 'Orc, Soldier',
+    subType: 'Orc, Soldier',
     max: 4,
     count: {
       fif: 2
@@ -4123,7 +4123,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '8',
-    subtype: 'Construct',
+    subType: 'Construct',
     max: 4,
     count: {
       awl: 2
@@ -4137,7 +4137,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '8',
-    subtype: 'Knight, Soldier',
+    subType: 'Knight, Soldier',
     max: 4,
     count: {
       awl: 2
@@ -4151,7 +4151,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '3',
     cast: '13',
-    subtype: 'Animal, Horse',
+    subType: 'Animal, Horse',
     max: 4,
     count: {
       core: 2,
@@ -4166,7 +4166,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '3',
     cast: '11',
-    subtype: 'Animal, Bird',
+    subType: 'Animal, Bird',
     max: 4,
     count: {
       core: 1,
@@ -4181,7 +4181,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '9',
-    subtype: 'Undead, Insect',
+    subType: 'Undead, Insect',
     max: 4,
     count: {
       dvn: 4
@@ -4195,7 +4195,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '9',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 4,
     count: {
       fif: 4
@@ -4209,7 +4209,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '5',
     cast: '15',
-    subtype: 'Force',
+    subType: 'Force',
     max: 1,
     count: {
       fvw: 1
@@ -4223,7 +4223,7 @@ const cards: Card[] = [
     school: 'Earth',
     level: '3',
     cast: '13',
-    subtype: 'Golem',
+    subType: 'Golem',
     max: 4,
     count: {
       fvw: 4
@@ -4237,7 +4237,7 @@ const cards: Card[] = [
     school: 'War, Nature',
     level: '2',
     cast: '9',
-    subtype: 'Wood Elf',
+    subType: 'Wood Elf',
     max: 4,
     count: {
       awl: 2
@@ -4251,7 +4251,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '4',
-    subtype: 'Gremlin',
+    subType: 'Gremlin',
     max: 6,
     count: {
       bvw: 3
@@ -4265,7 +4265,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '3',
     cast: '12',
-    subtype: 'Cleric',
+    subType: 'Cleric',
     max: 4,
     count: {
       lg: 2
@@ -4279,7 +4279,7 @@ const cards: Card[] = [
     school: 'War, Nature',
     level: '1',
     cast: '5',
-    subtype: 'Wood Elf, Soldier',
+    subType: 'Wood Elf, Soldier',
     max: 6,
     count: {
       awl: 3
@@ -4293,7 +4293,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '12',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 4,
     count: {
       acw: 2
@@ -4307,7 +4307,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '9',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 4,
     count: {
       acw: 2
@@ -4321,7 +4321,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '3',
     cast: '13',
-    subtype: 'Knight, Soldier',
+    subType: 'Knight, Soldier',
     max: 4,
     count: {
       core: 2,
@@ -4336,7 +4336,7 @@ const cards: Card[] = [
     school: 'Holy, War',
     level: '2',
     cast: '8',
-    subtype: 'Knight, Soldier',
+    subType: 'Knight, Soldier',
     max: 4,
     count: {
       pvs: 4
@@ -4350,7 +4350,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '5',
     cast: '21',
-    subtype: 'Aquatic, Octopus',
+    subType: 'Aquatic, Octopus',
     max: 4,
     count: {
       pvs: 3
@@ -4364,7 +4364,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '4',
     cast: '16',
-    subtype: 'Plant, Vine',
+    subType: 'Plant, Vine',
     max: 1,
     count: {
       dvn: 2
@@ -4378,7 +4378,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '3',
     cast: '13',
-    subtype: 'Animal, Cat',
+    subType: 'Animal, Cat',
     max: 4,
     count: {
       lg: 4
@@ -4392,7 +4392,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '9',
-    subtype: 'Cleric',
+    subType: 'Cleric',
     max: 4,
     count: {
       pvs: 4
@@ -4406,7 +4406,7 @@ const cards: Card[] = [
     school: 'Nature, Air',
     level: '3',
     cast: '13',
-    subtype: 'Insect, Beetle',
+    subType: 'Insect, Beetle',
     max: 4,
     count: {
       promo: 1
@@ -4420,7 +4420,7 @@ const cards: Card[] = [
     school: 'Arcane, Air',
     level: '2',
     cast: '8',
-    subtype: 'Bird, Lightning',
+    subType: 'Bird, Lightning',
     max: 4,
     count: {
       bvw: 2
@@ -4434,7 +4434,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '6',
-    subtype: 'Animal, Horse',
+    subType: 'Animal, Horse',
     max: 4,
     count: {
       acp: 2
@@ -4448,7 +4448,7 @@ const cards: Card[] = [
     school: 'War',
     level: '3',
     cast: '13',
-    subtype: 'Dwarf, Soldier',
+    subType: 'Dwarf, Soldier',
     max: 4,
     count: {
       fvw: 2
@@ -4462,7 +4462,7 @@ const cards: Card[] = [
     school: 'Earth, Fire',
     level: '4',
     cast: '15',
-    subtype: 'Golem',
+    subType: 'Golem',
     max: 4,
     count: {
       lg: 4
@@ -4476,7 +4476,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '4',
     cast: '17',
-    subtype: 'Animal, Cat',
+    subType: 'Animal, Cat',
     max: 4,
     count: {
       cok: 3
@@ -4490,7 +4490,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '4',
     cast: '16',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 4,
     count: {
       core: 1,
@@ -4505,7 +4505,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '2',
     cast: '8',
-    subtype: 'Worm',
+    subType: 'Worm',
     max: 4,
     count: {
       core: 3,
@@ -4520,7 +4520,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '5',
-    subtype: 'Worm',
+    subType: 'Worm',
     max: 6,
     count: {
       bvw: 3
@@ -4534,7 +4534,7 @@ const cards: Card[] = [
     school: 'Holy, Mind',
     level: '1',
     cast: '4',
-    subtype: 'Monk',
+    subType: 'Monk',
     max: 6,
     count: {
       acp: 2
@@ -4548,7 +4548,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '3',
     cast: '12',
-    subtype: 'Aquatic, Merren, Pirate',
+    subType: 'Aquatic, Merren, Pirate',
     max: 4,
     count: {
       pvs: 4
@@ -4562,7 +4562,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '9',
-    subtype: 'Angel, Cleric',
+    subType: 'Angel, Cleric',
     max: 4,
     count: {
       lg: 4
@@ -4576,7 +4576,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '3',
     cast: '13',
-    subtype: 'Angel, Knight',
+    subType: 'Angel, Knight',
     max: 4,
     count: {
       pvs: 2
@@ -4590,7 +4590,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '4',
     cast: '6',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 4,
     count: {
       acw: 2
@@ -4604,7 +4604,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '2',
     cast: '8',
-    subtype: 'Faerie',
+    subType: 'Faerie',
     max: 4,
     count: {
       core: 2,
@@ -4619,7 +4619,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '4',
     cast: '16',
-    subtype: 'Undead, Skeleton, Soldier',
+    subType: 'Undead, Skeleton, Soldier',
     max: 4,
     count: {
       dvn: 3
@@ -4633,7 +4633,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '4',
     cast: '16',
-    subtype: 'Animal, Ape',
+    subType: 'Animal, Ape',
     max: 4,
     count: {
       core: 1,
@@ -4648,7 +4648,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '8',
-    subtype: 'Animal, Bovid',
+    subType: 'Animal, Bovid',
     max: 4,
     count: {
       lg: 4
@@ -4662,7 +4662,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '3',
     cast: '12',
-    subtype: 'Aquatic, Merren',
+    subType: 'Aquatic, Merren',
     max: 4,
     count: {
       pvs: 2
@@ -4676,7 +4676,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '8',
-    subtype: 'Vampire',
+    subType: 'Vampire',
     max: 4,
     count: {
       acw: 2
@@ -4690,7 +4690,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '4',
     cast: '16',
-    subtype: 'Vampire',
+    subType: 'Vampire',
     max: 4,
     count: {
       core: 1,
@@ -4705,7 +4705,7 @@ const cards: Card[] = [
     school: 'Holy, War',
     level: '2',
     cast: '9',
-    subtype: 'Dwarf, Knight, Soldier',
+    subType: 'Dwarf, Knight, Soldier',
     max: 4,
     count: {
       pvs: 4
@@ -4719,7 +4719,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '8',
-    subtype: 'Orc, Soldier',
+    subType: 'Orc, Soldier',
     max: 4,
     count: {
       fvw: 4
@@ -4733,7 +4733,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '3',
     cast: '13',
-    subtype: 'Animal',
+    subType: 'Animal',
     max: 4,
     count: {
       bg1: 3
@@ -4747,7 +4747,7 @@ const cards: Card[] = [
     school: 'War',
     level: '3',
     cast: '11',
-    subtype: 'Dwarf, Soldier',
+    subType: 'Dwarf, Soldier',
     max: 4,
     count: {
       fif: 4
@@ -4761,7 +4761,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '2',
     cast: '8',
-    subtype: 'Reptile, Lizard',
+    subType: 'Reptile, Lizard',
     max: 4,
     count: {
       bvw: 2
@@ -4775,7 +4775,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '4',
-    subtype: 'Animal, Cat',
+    subType: 'Animal, Cat',
     max: 6,
     count: {
       bvw: 3
@@ -4789,7 +4789,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '3',
     cast: '12',
-    subtype: 'Animal, Cat',
+    subType: 'Animal, Cat',
     max: 4,
     count: {
       promo: 1
@@ -4803,7 +4803,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '9',
-    subtype: 'Undead, Zombie',
+    subType: 'Undead, Zombie',
     max: 4,
     count: {
       dvn: 4
@@ -4817,7 +4817,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '3',
-    subtype: 'Force, Construct',
+    subType: 'Force, Construct',
     max: 6,
     count: {
       afm: 3
@@ -4831,7 +4831,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '7',
-    subtype: 'Force, Construct',
+    subType: 'Force, Construct',
     max: 4,
     count: {
       afm: 2
@@ -4845,7 +4845,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '8',
-    subtype: 'Psyoculus',
+    subType: 'Psyoculus',
     max: 4,
     count: {
       fvw: 4
@@ -4859,7 +4859,7 @@ const cards: Card[] = [
     school: 'War',
     level: '3',
     cast: '12',
-    subtype: 'Animal, Elephant',
+    subType: 'Animal, Elephant',
     max: 4,
     count: {
       awl: 2
@@ -4873,7 +4873,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '3',
     cast: '11',
-    subtype: 'Animal, Cat',
+    subType: 'Animal, Cat',
     max: 4,
     count: {
       bvw: 2
@@ -4887,7 +4887,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '3',
     cast: '9',
-    subtype: 'Plant, Vine',
+    subType: 'Plant, Vine',
     max: 4,
     count: {
       dvn: 4
@@ -4901,7 +4901,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '13',
-    subtype: 'Undead',
+    subType: 'Undead',
     max: 4,
     count: {
       dvn: 4
@@ -4915,7 +4915,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '8',
-    subtype: 'Animal, Swine',
+    subType: 'Animal, Swine',
     max: 4,
     count: {
       bvw: 2
@@ -4929,7 +4929,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '4',
     cast: '16',
-    subtype: 'Animal, Canine',
+    subType: 'Animal, Canine',
     max: 4,
     count: {
       core: 1,
@@ -4944,7 +4944,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '2',
     cast: '8',
-    subtype: 'Bird, Reptile',
+    subType: 'Bird, Reptile',
     max: 4,
     count: {
       bvw: 2
@@ -4958,7 +4958,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '7',
-    subtype: 'Animal, Weasel',
+    subType: 'Animal, Weasel',
     max: 4,
     count: {
       bvw: 2
@@ -4972,7 +4972,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '3',
     cast: '12',
-    subtype: 'High Elf, Soldier',
+    subType: 'High Elf, Soldier',
     max: 4,
     count: {
       core: 2,
@@ -4987,7 +4987,7 @@ const cards: Card[] = [
     school: 'War, Holy',
     level: '1',
     cast: '5',
-    subtype: 'Soldier',
+    subType: 'Soldier',
     max: 6,
     count: {
       awl: 3
@@ -5001,7 +5001,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '5',
-    subtype: 'Soldier',
+    subType: 'Soldier',
     max: 6,
     count: {
       promo: 1
@@ -5015,7 +5015,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '3',
     cast: '12',
-    subtype: 'Reptile, Serpent',
+    subType: 'Reptile, Serpent',
     max: 4,
     count: {
       bvw: 2
@@ -5029,7 +5029,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '5',
     cast: '21',
-    subtype: 'Angel',
+    subType: 'Angel',
     max: 4,
     count: {
       core: 1,
@@ -5045,7 +5045,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '3',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 6,
     count: {
       acw: 3
@@ -5059,7 +5059,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '8',
     cast: '24',
-    subtype: 'Undead, Skeleton, Dragon',
+    subType: 'Undead, Skeleton, Dragon',
     max: 4,
     count: {
       fif: 3
@@ -5073,7 +5073,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '2',
     cast: '8',
-    subtype: 'Satyr, Soldier',
+    subType: 'Satyr, Soldier',
     max: 4,
     count: {
       bvw: 2
@@ -5087,7 +5087,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '10',
-    subtype: 'Undead, Zombie',
+    subType: 'Undead, Zombie',
     max: 4,
     count: {
       promo: 1
@@ -5101,7 +5101,7 @@ const cards: Card[] = [
     school: 'Arcane, Air',
     level: '2&1',
     cast: '11',
-    subtype: 'Bird, Harpy',
+    subType: 'Bird, Harpy',
     max: 4,
     count: {
       cok: 4
@@ -5115,7 +5115,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '5',
     cast: '21',
-    subtype: 'Angel',
+    subType: 'Angel',
     max: 4,
     count: {
       fvw: 2
@@ -5129,7 +5129,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '12',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 4,
     count: {
       fif: 2
@@ -5143,7 +5143,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '7',
-    subtype: 'Orc, Cleric',
+    subType: 'Orc, Cleric',
     max: 4,
     count: {
       promo: 1
@@ -5157,7 +5157,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '8',
-    subtype: 'Undead, Zombie',
+    subType: 'Undead, Zombie',
     max: 4,
     count: {
       dvn: 3
@@ -5171,7 +5171,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '5',
     cast: '22',
-    subtype: 'Aquatic, Fish',
+    subType: 'Aquatic, Fish',
     max: 4,
     count: {
       promo: 1
@@ -5185,7 +5185,7 @@ const cards: Card[] = [
     school: 'Nature, Water',
     level: '4',
     cast: '15',
-    subtype: 'Animal, Aquatic, Reptile',
+    subType: 'Animal, Aquatic, Reptile',
     max: 4,
     count: {
       pvs: 4
@@ -5199,7 +5199,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '1',
     cast: '5',
-    subtype: 'Aquatic, Deptonne, Pirate',
+    subType: 'Aquatic, Deptonne, Pirate',
     max: 6,
     count: {
       pvs: 6
@@ -5213,7 +5213,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '2',
     cast: '9',
-    subtype: 'Aquatic, Merren',
+    subType: 'Aquatic, Merren',
     max: 4,
     count: {
       pvs: 4
@@ -5227,7 +5227,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '8',
-    subtype: 'Animal, Weasel',
+    subType: 'Animal, Weasel',
     max: 4,
     count: {
       promo: 1
@@ -5241,7 +5241,7 @@ const cards: Card[] = [
     school: 'War',
     level: '4',
     cast: '16',
-    subtype: 'Soldier',
+    subType: 'Soldier',
     max: 4,
     count: {
       fvw: 2
@@ -5255,7 +5255,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '11',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 4,
     count: {
       bg1: 3
@@ -5269,7 +5269,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '11',
-    subtype: 'Undead, Skeleton, Soldier',
+    subType: 'Undead, Skeleton, Soldier',
     max: 4,
     count: {
       dvn: 4
@@ -5283,7 +5283,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '13',
-    subtype: 'Undead, Skeleton, Soldier',
+    subType: 'Undead, Skeleton, Soldier',
     max: 4,
     count: {
       dvn: 4
@@ -5297,7 +5297,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '5',
-    subtype: 'Undead, Skeleton, Soldier',
+    subType: 'Undead, Skeleton, Soldier',
     max: 6,
     count: {
       dvn: 6
@@ -5311,7 +5311,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '8',
-    subtype: 'Undead, Skeleton, Soldier',
+    subType: 'Undead, Skeleton, Soldier',
     max: 4,
     count: {
       core: 2,
@@ -5327,7 +5327,7 @@ const cards: Card[] = [
     school: 'War',
     level: '3',
     cast: '12',
-    subtype: 'Goblin, Soldier',
+    subType: 'Goblin, Soldier',
     max: 4,
     count: {
       bg1: 3
@@ -5341,7 +5341,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '4',
     cast: '15',
-    subtype: 'Animal, Cat',
+    subType: 'Animal, Cat',
     max: 1,
     count: {
       bvw: 1
@@ -5355,7 +5355,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '7',
-    subtype: 'Animal',
+    subType: 'Animal',
     max: 4,
     count: {
       core: 1,
@@ -5370,7 +5370,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '3',
     cast: '11',
-    subtype: 'Animal, Reptile',
+    subType: 'Animal, Reptile',
     max: 4,
     count: {
       dvn: 4
@@ -5384,7 +5384,7 @@ const cards: Card[] = [
     school: 'Arcane, Dark',
     level: '1&1',
     cast: '7',
-    subtype: 'Antarian',
+    subType: 'Antarian',
     max: 4,
     count: {
       bg1: 12
@@ -5398,7 +5398,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '4',
-    subtype: 'Animal, Bear',
+    subType: 'Animal, Bear',
     max: 6,
     count: {
       bvw: 3
@@ -5412,7 +5412,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '4',
     cast: '17',
-    subtype: 'Animal, Bear',
+    subType: 'Animal, Bear',
     max: 4,
     count: {
       core: 1,
@@ -5427,7 +5427,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '3',
     cast: '11',
-    subtype: 'Animal, Bear',
+    subType: 'Animal, Bear',
     max: 4,
     count: {
       bvw: 2
@@ -5441,7 +5441,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '3',
     cast: '12',
-    subtype: 'Reptile, Lizard',
+    subType: 'Reptile, Lizard',
     max: 4,
     count: {
       core: 1,
@@ -5456,7 +5456,7 @@ const cards: Card[] = [
     school: 'War, Nature',
     level: '1',
     cast: '5',
-    subtype: 'Wood Elf, Soldier',
+    subType: 'Wood Elf, Soldier',
     max: 6,
     count: {
       awl: 2
@@ -5470,7 +5470,7 @@ const cards: Card[] = [
     school: 'War',
     level: '7',
     cast: '28',
-    subtype: 'Statue',
+    subType: 'Statue',
     max: 1,
     count: {
       fif: 2
@@ -5484,7 +5484,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '3',
     cast: '13',
-    subtype: 'Animal, Bird',
+    subType: 'Animal, Bird',
     max: 4,
     count: {
       core: 1,
@@ -5499,7 +5499,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '5',
-    subtype: 'Animal, Weasel',
+    subType: 'Animal, Weasel',
     max: 6,
     count: {
       bvw: 1
@@ -5513,7 +5513,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '6',
-    subtype: 'Insect',
+    subType: 'Insect',
     max: 6,
     count: {
       dvn: 2
@@ -5527,7 +5527,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '3',
     cast: '12',
-    subtype: 'High Elf, Soldier',
+    subType: 'High Elf, Soldier',
     max: 4,
     count: {
       pvs: 4
@@ -5541,7 +5541,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '5',
-    subtype: 'Knight, Soldier',
+    subType: 'Knight, Soldier',
     max: 6,
     count: {
       acp: 3
@@ -5555,7 +5555,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '8',
-    subtype: 'High Elf, Soldier',
+    subType: 'High Elf, Soldier',
     max: 4,
     count: {
       acp: 2
@@ -5569,7 +5569,7 @@ const cards: Card[] = [
     school: 'War',
     level: '4',
     cast: '17',
-    subtype: 'Orc, Soldier',
+    subType: 'Orc, Soldier',
     max: 4,
     count: {
       fvw: 2
@@ -5583,7 +5583,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '7',
-    subtype: 'Plant, Vine',
+    subType: 'Plant, Vine',
     max: 4,
     count: {
       dvn: 4
@@ -5597,7 +5597,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '8',
-    subtype: 'Psyoculus',
+    subType: 'Psyoculus',
     max: 4,
     count: {
       fvw: 4
@@ -5611,7 +5611,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '6',
-    subtype: 'Animal, Bird',
+    subType: 'Animal, Bird',
     max: 6,
     count: {
       core: 2,
@@ -5626,7 +5626,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '9',
-    subtype: 'Animal, Canine',
+    subType: 'Animal, Canine',
     max: 4,
     count: {
       core: 3,
@@ -5641,7 +5641,7 @@ const cards: Card[] = [
     school: 'War',
     level: '5',
     cast: '19',
-    subtype: 'Animal, Elephant',
+    subType: 'Animal, Elephant',
     max: 4,
     count: {
       lg: 4
@@ -5655,7 +5655,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '11',
-    subtype: 'Undead, Mummy, Dsjer-Tet',
+    subType: 'Undead, Mummy, Dsjer-Tet',
     max: 4,
     count: {
       afm: 2
@@ -5669,7 +5669,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '6',
     cast: '21',
-    subtype: 'Plant, Tree, Sequoian',
+    subType: 'Plant, Tree, Sequoian',
     max: 4,
     count: {
       dvn: 3
@@ -5683,7 +5683,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '8',
-    subtype: 'Force, Construct',
+    subType: 'Force, Construct',
     max: 4,
     count: {
       afm: 2
@@ -5697,7 +5697,7 @@ const cards: Card[] = [
     school: 'War, Nature',
     level: '3',
     cast: '12',
-    subtype: 'Troll, Soldier, Pitfighter',
+    subType: 'Troll, Soldier, Pitfighter',
     max: 4,
     count: {
       awl: 2
@@ -5711,7 +5711,7 @@ const cards: Card[] = [
     school: 'Dark, Water',
     level: '3',
     cast: '11',
-    subtype: 'Pirate, Skeleton, Undead',
+    subType: 'Pirate, Skeleton, Undead',
     max: 4,
     count: {
       pvs: 3
@@ -5725,7 +5725,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '5',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 6,
     count: {
       lg: 6
@@ -5739,7 +5739,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '9',
-    subtype: 'Undead, Zombie',
+    subType: 'Undead, Zombie',
     max: 4,
     count: {
       dvn: 4
@@ -5753,7 +5753,7 @@ const cards: Card[] = [
     school: 'Arcane, Dark',
     level: '2&1',
     cast: '11',
-    subtype: 'Antarian',
+    subType: 'Antarian',
     max: 4,
     count: {
       bg1: 6
@@ -5767,7 +5767,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '5',
     cast: '21',
-    subtype: 'Angel',
+    subType: 'Angel',
     max: 4,
     count: {
       core: 1,
@@ -5782,7 +5782,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '7',
-    subtype: 'Undead, Zombie',
+    subType: 'Undead, Zombie',
     max: 4,
     count: {
       dvn: 4
@@ -5796,7 +5796,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '4',
     cast: '17',
-    subtype: 'Griffin',
+    subType: 'Griffin',
     max: 4,
     count: {
       promo: 1
@@ -5810,7 +5810,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '7',
-    subtype: 'Plant, Vine',
+    subType: 'Plant, Vine',
     max: 4,
     count: {
       dvn: 4
@@ -5824,7 +5824,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '6',
     cast: '22',
-    subtype: 'Aquatic, Elemental, Hydro',
+    subType: 'Aquatic, Elemental, Hydro',
     max: 4,
     count: {
       pvs: 4
@@ -5838,7 +5838,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '4',
     cast: '12',
-    subtype: 'Wind',
+    subType: 'Wind',
     max: 4,
     count: {
       core: 1,
@@ -5853,7 +5853,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '9',
-    subtype: 'Knight, Soldier',
+    subType: 'Knight, Soldier',
     max: 4,
     count: {
       acp: 2
@@ -5867,7 +5867,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '5',
-    subtype: 'Demon',
+    subType: 'Demon',
     max: 6,
     count: {
       fif: 6
@@ -5881,7 +5881,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '4',
     cast: '16',
-    subtype: 'Animal, Rhinoceros',
+    subType: 'Animal, Rhinoceros',
     max: 4,
     count: {
       lg: 4
@@ -5895,7 +5895,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '4',
-    subtype: 'Faerie',
+    subType: 'Faerie',
     max: 6,
     count: {
       bvw: 1
@@ -5909,7 +5909,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '5',
-    subtype: 'Animal, Canine',
+    subType: 'Animal, Canine',
     max: 6,
     count: {
       bvw: 3
@@ -5923,7 +5923,7 @@ const cards: Card[] = [
     school: 'War, Nature',
     level: '2',
     cast: '7',
-    subtype: 'Wood Elf, Soldier',
+    subType: 'Wood Elf, Soldier',
     max: 4,
     count: {
       awl: 2
@@ -5937,7 +5937,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '11',
-    subtype: 'Undead, Zombie',
+    subType: 'Undead, Zombie',
     max: 4,
     count: {
       dvn: 4
@@ -5951,7 +5951,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '4',
-    subtype: 'Undead, Zombie',
+    subType: 'Undead, Zombie',
     max: 6,
     count: {
       dvn: 6
@@ -5965,7 +5965,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '7',
-    subtype: 'Undead, Zombie',
+    subType: 'Undead, Zombie',
     max: 4,
     count: {
       dvn: 4
@@ -5979,7 +5979,7 @@ const cards: Card[] = [
     school: 'Dark, Fire',
     level: '1&1',
     cast: '2',
-    subtype: 'Curse, Flame',
+    subType: 'Curse, Flame',
     reveal: '1',
     max: 4,
     count: {
@@ -5994,7 +5994,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '2',
-    subtype: 'Curse',
+    subType: 'Curse',
     reveal: '3',
     max: 6,
     count: {
@@ -6024,7 +6024,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '2',
-    subtype: 'Fortune',
+    subType: 'Fortune',
     reveal: '3 ',
     max: 1,
     count: {
@@ -6039,7 +6039,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '2',
-    subtype: 'Curse',
+    subType: 'Curse',
     reveal: '5',
     max: 4,
     count: {
@@ -6054,7 +6054,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '2',
-    subtype: 'Metamagic',
+    subType: 'Metamagic',
     reveal: '0 ',
     max: 6,
     count: {
@@ -6069,7 +6069,7 @@ const cards: Card[] = [
     school: 'Holy, War',
     level: '1&1',
     cast: '2',
-    subtype: 'Protection, Metamagic',
+    subType: 'Protection, Metamagic',
     reveal: '4',
     max: 4,
     count: {
@@ -6084,7 +6084,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Force',
+    subType: 'Force',
     reveal: '4',
     max: 4,
     count: {
@@ -6099,7 +6099,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Protection',
+    subType: 'Protection',
     reveal: '1',
     max: 6,
     count: {
@@ -6128,7 +6128,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '2',
-    subtype: 'Psychic, Song',
+    subType: 'Psychic, Song',
     reveal: '5',
     max: 4,
     count: {
@@ -6143,7 +6143,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '2',
-    subtype: 'Plant, Healing, Protection',
+    subType: 'Plant, Healing, Protection',
     reveal: '2',
     max: 4,
     count: {
@@ -6188,7 +6188,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Blessing',
+    subType: 'Blessing',
     reveal: '0',
     max: 6,
     count: {
@@ -6203,7 +6203,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Light, Retribution',
+    subType: 'Light, Retribution',
     reveal: '2',
     max: 6,
     count: {
@@ -6218,7 +6218,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Force, Defense',
+    subType: 'Force, Defense',
     reveal: '2',
     max: 6,
     count: {
@@ -6234,7 +6234,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Illusion',
+    subType: 'Illusion',
     reveal: '0',
     max: 6,
     count: {
@@ -6249,7 +6249,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '2',
-    subtype: 'Command',
+    subType: 'Command',
     reveal: '0',
     max: 4,
     count: {
@@ -6280,7 +6280,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '2',
-    subtype: 'Curse',
+    subType: 'Curse',
     reveal: '1',
     max: 6,
     count: {
@@ -6296,7 +6296,7 @@ const cards: Card[] = [
     school: 'Dark, Mind',
     level: '1',
     cast: '2',
-    subtype: 'Psychic, Song',
+    subType: 'Psychic, Song',
     reveal: 'X',
     max: 4,
     count: {
@@ -6311,7 +6311,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '2',
-    subtype: 'Psychic, Control',
+    subType: 'Psychic, Control',
     reveal: 'X',
     max: 4,
     count: {
@@ -6341,7 +6341,7 @@ const cards: Card[] = [
     school: 'Fire',
     level: '2',
     cast: '2',
-    subtype: 'Flame, Barrier',
+    subType: 'Flame, Barrier',
     reveal: '4',
     max: 4,
     count: {
@@ -6356,7 +6356,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '2',
-    subtype: 'Light, Barrier',
+    subType: 'Light, Barrier',
     reveal: '4',
     max: 4,
     count: {
@@ -6371,7 +6371,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '2',
     cast: '2',
-    subtype: 'Lightning, Barrier',
+    subType: 'Lightning, Barrier',
     reveal: '4',
     max: 6,
     count: {
@@ -6387,7 +6387,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '2',
-    subtype: 'Protection',
+    subType: 'Protection',
     reveal: '4',
     max: 4,
     count: {
@@ -6402,7 +6402,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '2',
     cast: '2',
-    subtype: 'Defense',
+    subType: 'Defense',
     reveal: '5',
     max: 4,
     count: {
@@ -6418,7 +6418,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '2',
-    subtype: 'Psychic',
+    subType: 'Psychic',
     reveal: 'X',
     max: 4,
     count: {
@@ -6433,7 +6433,7 @@ const cards: Card[] = [
     school: 'Dark, Mind',
     level: '1',
     cast: '2',
-    subtype: 'Curse, Psychic',
+    subType: 'Curse, Psychic',
     reveal: '0',
     max: 6,
     count: {
@@ -6448,7 +6448,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '2',
-    subtype: 'Command',
+    subType: 'Command',
     reveal: '3',
     max: 6,
     count: {
@@ -6463,7 +6463,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '2',
-    subtype: 'Curse',
+    subType: 'Curse',
     reveal: '4',
     max: 4,
     count: {
@@ -6478,7 +6478,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '2',
-    subtype: 'Curse',
+    subType: 'Curse',
     reveal: '0',
     max: 6,
     count: {
@@ -6493,7 +6493,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '2',
-    subtype: 'Curse',
+    subType: 'Curse',
     reveal: '6',
     max: 4,
     count: {
@@ -6509,7 +6509,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '2',
-    subtype: 'Curse',
+    subType: 'Curse',
     reveal: '4',
     max: 6,
     count: {
@@ -6524,7 +6524,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Illusion',
+    subType: 'Illusion',
     reveal: '0',
     max: 6,
     count: {
@@ -6540,7 +6540,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '2',
-    subtype: 'Command',
+    subType: 'Command',
     reveal: '1',
     max: 6,
     count: {
@@ -6555,7 +6555,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '2',
-    subtype: 'Curse, Psychic',
+    subType: 'Curse, Psychic',
     reveal: '3',
     max: 6,
     count: {
@@ -6570,7 +6570,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '2',
-    subtype: 'Curse, Vampiric',
+    subType: 'Curse, Vampiric',
     reveal: '2',
     max: 6,
     count: {
@@ -6585,7 +6585,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Chakra, Protection',
+    subType: 'Chakra, Protection',
     reveal: '1',
     max: 6,
     count: {
@@ -6600,7 +6600,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '2',
-    subtype: 'Command, Formation',
+    subType: 'Command, Formation',
     reveal: '1',
     max: 4,
     count: {
@@ -6615,7 +6615,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '3',
     cast: '2',
-    subtype: 'Protection',
+    subType: 'Protection',
     reveal: '10',
     max: 1,
     count: {
@@ -6645,7 +6645,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Protection, Aegis',
+    subType: 'Protection, Aegis',
     reveal: '2',
     max: 6,
     count: {
@@ -6661,7 +6661,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Healing, Protection',
+    subType: 'Healing, Protection',
     reveal: '1 ',
     max: 6,
     count: {
@@ -6676,7 +6676,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '2',
-    subtype: 'Defense',
+    subType: 'Defense',
     reveal: '0 ',
     max: 6,
     count: {
@@ -6691,7 +6691,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Force',
+    subType: 'Force',
     reveal: '1',
     max: 6,
     count: {
@@ -6706,7 +6706,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '2',
     cast: '2',
-    subtype: 'Hydro',
+    subType: 'Hydro',
     reveal: '1',
     max: 4,
     count: {
@@ -6736,7 +6736,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '2',
-    subtype: 'Metamagic',
+    subType: 'Metamagic',
     reveal: 'X',
     max: 6,
     count: {
@@ -6751,7 +6751,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '2',
-    subtype: 'Curse',
+    subType: 'Curse',
     reveal: '4',
     max: 4,
     count: {
@@ -6767,7 +6767,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '2',
     cast: 's',
-    subtype: 'Mana',
+    subType: 'Mana',
     reveal: '4',
     max: 4,
     count: {
@@ -6783,7 +6783,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '2',
     cast: '2',
-    subtype: 'Teleport',
+    subType: 'Teleport',
     reveal: '3',
     max: 4,
     count: {
@@ -6798,7 +6798,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Retribution',
+    subType: 'Retribution',
     reveal: '2',
     max: 6,
     count: {
@@ -6827,7 +6827,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '2',
-    subtype: 'Command, Formation',
+    subType: 'Command, Formation',
     reveal: '1',
     max: 4,
     count: {
@@ -6842,7 +6842,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '3',
     cast: '2',
-    subtype: 'Force',
+    subType: 'Force',
     reveal: '5',
     max: 4,
     count: {
@@ -6857,7 +6857,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '2',
-    subtype: 'Force',
+    subType: 'Force',
     reveal: '2',
     max: 4,
     count: {
@@ -6874,7 +6874,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Force, Defense',
+    subType: 'Force, Defense',
     reveal: '3',
     max: 6,
     count: {
@@ -6890,7 +6890,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Force',
+    subType: 'Force',
     reveal: '2',
     max: 1,
     count: {
@@ -6905,7 +6905,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Force, Defense',
+    subType: 'Force, Defense',
     reveal: '3',
     max: 6,
     count: {
@@ -6921,7 +6921,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '4',
     cast: '2',
-    subtype: 'Force',
+    subType: 'Force',
     reveal: '10',
     max: 4,
     count: {
@@ -6936,7 +6936,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '2',
-    subtype: 'Command, Formation',
+    subType: 'Command, Formation',
     reveal: '1',
     max: 4,
     count: {
@@ -6951,7 +6951,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '2',
-    subtype: 'Command',
+    subType: 'Command',
     reveal: '4',
     max: 4,
     count: {
@@ -6966,7 +6966,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Force',
+    subType: 'Force',
     reveal: 'X',
     max: 4,
     count: {
@@ -6981,7 +6981,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Healing',
+    subType: 'Healing',
     reveal: '0',
     max: 6,
     count: {
@@ -7012,7 +7012,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '2',
-    subtype: 'Curse, Poison',
+    subType: 'Curse, Poison',
     reveal: '4',
     max: 4,
     count: {
@@ -7029,7 +7029,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '2',
-    subtype: 'Transform',
+    subType: 'Transform',
     reveal: '3',
     max: 6,
     count: {
@@ -7044,7 +7044,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '2',
-    subtype: 'Protection',
+    subType: 'Protection',
     reveal: '0',
     max: 6,
     count: {
@@ -7059,7 +7059,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '2',
-    subtype: 'Mana',
+    subType: 'Mana',
     reveal: '2',
     max: 6,
     count: {
@@ -7090,7 +7090,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Charm, Healing',
+    subType: 'Charm, Healing',
     reveal: '3',
     max: 6,
     count: {
@@ -7105,7 +7105,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '2',
-    subtype: 'Healing, Song',
+    subType: 'Healing, Song',
     reveal: '5',
     max: 4,
     count: {
@@ -7120,7 +7120,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '2',
-    subtype: 'Trap, Flame',
+    subType: 'Trap, Flame',
     reveal: '2',
     max: 6,
     count: {
@@ -7136,7 +7136,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '2',
-    subtype: 'Metamagic',
+    subType: 'Metamagic',
     reveal: '0',
     max: 1,
     count: {
@@ -7151,7 +7151,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '1',
     cast: '2',
-    subtype: 'Hydro, Trap',
+    subType: 'Hydro, Trap',
     reveal: '2',
     max: 6,
     count: {
@@ -7166,7 +7166,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '2',
-    subtype: 'Healing',
+    subType: 'Healing',
     reveal: 'X ',
     max: 6,
     count: {
@@ -7181,7 +7181,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '2',
-    subtype: 'Metamagic',
+    subType: 'Metamagic',
     reveal: '1',
     max: 6,
     count: {
@@ -7212,7 +7212,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Blessing',
+    subType: 'Blessing',
     reveal: '1',
     max: 6,
     count: {
@@ -7227,7 +7227,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Illusion',
+    subType: 'Illusion',
     reveal: '1',
     max: 6,
     count: {
@@ -7242,7 +7242,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Healing',
+    subType: 'Healing',
     reveal: '2',
     max: 4,
     count: {
@@ -7271,7 +7271,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Psychic, Song',
+    subType: 'Psychic, Song',
     reveal: '3',
     max: 6,
     count: {
@@ -7286,7 +7286,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '2',
-    subtype: 'Curse',
+    subType: 'Curse',
     reveal: '3',
     max: 6,
     count: {
@@ -7302,7 +7302,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '2',
-    subtype: 'Curse',
+    subType: 'Curse',
     reveal: '3',
     max: 6,
     count: {
@@ -7319,7 +7319,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '2',
-    subtype: 'Mana',
+    subType: 'Mana',
     reveal: '2',
     max: 6,
     count: {
@@ -7334,7 +7334,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '2',
-    subtype: 'Curse',
+    subType: 'Curse',
     reveal: '2',
     max: 6,
     count: {
@@ -7350,7 +7350,7 @@ const cards: Card[] = [
     school: 'Mind, Dark',
     level: '1',
     cast: '2',
-    subtype: 'Psychic, Fear',
+    subType: 'Psychic, Fear',
     reveal: '2',
     max: 6,
     count: {
@@ -7365,7 +7365,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '6',
     cast: '1',
-    subtype: 'Psychic, Control',
+    subType: 'Psychic, Control',
     reveal: '2X',
     max: 4,
     count: {
@@ -7380,7 +7380,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '2',
-    subtype: 'Psychic, Control',
+    subType: 'Psychic, Control',
     reveal: 'X',
     max: 6,
     count: {
@@ -7395,7 +7395,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Psychic',
+    subType: 'Psychic',
     reveal: '0',
     max: 6,
     count: {
@@ -7410,7 +7410,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '2',
-    subtype: 'Mana',
+    subType: 'Mana',
     reveal: '0 ',
     max: 6,
     count: {
@@ -7425,7 +7425,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '2',
-    subtype: 'Fortune',
+    subType: 'Fortune',
     reveal: '0',
     max: 6,
     count: {
@@ -7454,7 +7454,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '2',
-    subtype: 'Metamagic',
+    subType: 'Metamagic',
     reveal: '2',
     max: 6,
     count: {
@@ -7470,7 +7470,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Psychic',
+    subType: 'Psychic',
     reveal: '2',
     max: 6,
     count: {
@@ -7486,7 +7486,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Blessing, Protection',
+    subType: 'Blessing, Protection',
     reveal: '0',
     max: 6,
     count: {
@@ -7515,7 +7515,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '2',
-    subtype: 'Curse, Poison',
+    subType: 'Curse, Poison',
     reveal: '4',
     max: 4,
     count: {
@@ -7530,7 +7530,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '2',
-    subtype: 'Curse, Poison',
+    subType: 'Curse, Poison',
     reveal: '3',
     max: 6,
     count: {
@@ -7546,7 +7546,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '2',
-    subtype: 'Command, Formation',
+    subType: 'Command, Formation',
     reveal: '1',
     max: 4,
     count: {
@@ -7561,7 +7561,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '2',
-    subtype: 'Command',
+    subType: 'Command',
     reveal: '1',
     max: 6,
     count: {
@@ -7576,7 +7576,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Defense, Force',
+    subType: 'Defense, Force',
     reveal: '2',
     max: 6,
     count: {
@@ -7591,7 +7591,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Force',
+    subType: 'Force',
     reveal: '0',
     max: 6,
     count: {
@@ -7636,7 +7636,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Force',
+    subType: 'Force',
     reveal: '3',
     max: 6,
     count: {
@@ -7651,7 +7651,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Healing',
+    subType: 'Healing',
     reveal: '3',
     max: 1,
     count: {
@@ -7682,7 +7682,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '2',
-    subtype: 'Force, Defense',
+    subType: 'Force, Defense',
     reveal: '5',
     max: 4,
     count: {
@@ -7699,7 +7699,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '2',
     cast: '2',
-    subtype: 'Metamagic',
+    subType: 'Metamagic',
     reveal: '5',
     max: 4,
     count: {
@@ -7732,7 +7732,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '2',
-    subtype: 'Curse, Necro',
+    subType: 'Curse, Necro',
     reveal: '0',
     max: 4,
     count: {
@@ -7747,7 +7747,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '1',
     cast: '2',
-    subtype: 'Acid, Curse',
+    subType: 'Acid, Curse',
     reveal: '2',
     max: 4,
     count: {
@@ -7762,7 +7762,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '2',
-    subtype: 'Protection, Aegis',
+    subType: 'Protection, Aegis',
     reveal: '4',
     max: 4,
     count: {
@@ -7778,7 +7778,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Protection',
+    subType: 'Protection',
     reveal: '2',
     max: 6,
     count: {
@@ -7793,7 +7793,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '2',
-    subtype: 'Vampiric',
+    subType: 'Vampiric',
     reveal: '1',
     max: 6,
     count: {
@@ -7822,7 +7822,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '2',
-    subtype: '0.0',
+    subType: '0.0',
     reveal: '3',
     max: 4,
     count: {
@@ -7837,7 +7837,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '1',
     cast: '2',
-    subtype: 'Lightning',
+    subType: 'Lightning',
     reveal: '0',
     max: 6,
     count: {
@@ -7852,7 +7852,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '2',
-    subtype: 'Transform',
+    subType: 'Transform',
     reveal: 'X',
     max: 6,
     count: {
@@ -7867,7 +7867,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Psychic',
+    subType: 'Psychic',
     reveal: 'X',
     max: 6,
     count: {
@@ -7882,7 +7882,7 @@ const cards: Card[] = [
     school: 'Holy, Mind',
     level: '1',
     cast: '2',
-    subtype: 'Psychic, Song',
+    subType: 'Psychic, Song',
     reveal: 'X',
     max: 4,
     count: {
@@ -7897,7 +7897,7 @@ const cards: Card[] = [
     school: 'War, Earth',
     level: '1&1',
     cast: '2',
-    subtype: 'Trap',
+    subType: 'Trap',
     reveal: '5',
     max: 4,
     count: {
@@ -7912,7 +7912,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '2',
-    subtype: 'Command',
+    subType: 'Command',
     reveal: '5',
     max: 4,
     count: {
@@ -7927,7 +7927,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '2',
-    subtype: 'Curse, Poison',
+    subType: 'Curse, Poison',
     reveal: '2',
     max: 6,
     count: {
@@ -7942,7 +7942,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Force',
+    subType: 'Force',
     reveal: '1',
     max: 6,
     count: {
@@ -7957,7 +7957,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '2',
     cast: '2',
-    subtype: 'Portal',
+    subType: 'Portal',
     reveal: '4',
     max: 4,
     count: {
@@ -7972,7 +7972,7 @@ const cards: Card[] = [
     school: 'Nature',
     level: '1',
     cast: '2',
-    subtype: 'Plant, Vine',
+    subType: 'Plant, Vine',
     reveal: '2',
     max: 6,
     count: {
@@ -7987,7 +7987,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: 'Force',
+    subType: 'Force',
     reveal: '2',
     max: 6,
     count: {
@@ -8002,7 +8002,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '2',
-    subtype: 'Trap, Teleport',
+    subType: 'Trap, Teleport',
     reveal: '2',
     max: 6,
     count: {
@@ -8018,7 +8018,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '2',
-    subtype: 'Curse',
+    subType: 'Curse',
     reveal: '1',
     max: 6,
     count: {
@@ -8033,7 +8033,7 @@ const cards: Card[] = [
     school: 'Arcane, Earth',
     level: '2&1',
     cast: '2',
-    subtype: 'Transform',
+    subType: 'Transform',
     reveal: '4',
     max: 4,
     count: {
@@ -8049,7 +8049,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '2',
-    subtype: "V'Tar, Protection, Force",
+    subType: "V'Tar, Protection, Force",
     reveal: '3',
     max: 4,
     count: {
@@ -8064,7 +8064,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '2',
-    subtype: 'Vampiric',
+    subType: 'Vampiric',
     reveal: '4',
     max: 4,
     count: {
@@ -8094,7 +8094,7 @@ const cards: Card[] = [
     school: 'War',
     level: '4',
     cast: '14',
-    subtype: 'Command',
+    subType: 'Command',
     max: 1,
     count: {
       cok: 2
@@ -8108,7 +8108,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: 'X',
-    subtype: 'Necro',
+    subType: 'Necro',
     max: 4,
     count: {
       dvn: 4
@@ -8122,7 +8122,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '3',
     cast: '14',
-    subtype: 'Teleport',
+    subType: 'Teleport',
     max: 4,
     count: {
       core: 2,
@@ -8137,7 +8137,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '5',
-    subtype: 'Command',
+    subType: 'Command',
     max: 6,
     count: {
       core: 2,
@@ -8153,7 +8153,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '2',
-    subtype: 'Psychic, Curse',
+    subType: 'Psychic, Curse',
     max: 6,
     count: {
       promo: 1
@@ -8167,7 +8167,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '3',
-    subtype: 'Necro',
+    subType: 'Necro',
     max: 6,
     count: {
       promo: 1
@@ -8208,7 +8208,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '3',
-    subtype: 'Force',
+    subType: 'Force',
     max: 4,
     count: {
       bg1: 4
@@ -8222,7 +8222,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '4',
-    subtype: 'Command',
+    subType: 'Command',
     max: 6,
     count: {
       core: 2,
@@ -8238,7 +8238,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: 'X',
-    subtype: 'Psychic',
+    subType: 'Psychic',
     max: 6,
     count: {
       lg: 6
@@ -8252,7 +8252,7 @@ const cards: Card[] = [
     school: 'Fire',
     level: '1',
     cast: '5',
-    subtype: 'Flame',
+    subType: 'Flame',
     max: 4,
     count: {
       fif: 4
@@ -8279,7 +8279,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '1',
     cast: 'X',
-    subtype: 'Acid',
+    subType: 'Acid',
     max: 6,
     count: {
       bvw: 4,
@@ -8295,7 +8295,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Healing',
+    subType: 'Healing',
     max: 6,
     count: {
       acp: 3
@@ -8309,7 +8309,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: 'X',
-    subtype: 'Command',
+    subType: 'Command',
     max: 4,
     count: {
       fif: 6
@@ -8323,7 +8323,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '4',
     cast: '16',
-    subtype: 'Metamagic',
+    subType: 'Metamagic',
     max: 4,
     count: {
       fvw: 3
@@ -8337,7 +8337,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: 'X',
-    subtype: 'Force',
+    subType: 'Force',
     max: 4,
     count: {
       fif: 6
@@ -8351,7 +8351,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: 'X',
-    subtype: 'Metamagic',
+    subType: 'Metamagic',
     max: 6,
     count: {
       core: 5,
@@ -8370,7 +8370,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: 'X',
-    subtype: 'Metamagic',
+    subType: 'Metamagic',
     max: 6,
     count: {
       bvw: 4,
@@ -8387,7 +8387,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '1',
     cast: 'X',
-    subtype: 'Acid',
+    subType: 'Acid',
     max: 6,
     count: {
       core: 5,
@@ -8405,7 +8405,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '3',
     cast: '12',
-    subtype: 'Vampiric',
+    subType: 'Vampiric',
     max: 4,
     count: {
       core: 2,
@@ -8420,7 +8420,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '3',
     cast: '16',
-    subtype: 'Mana',
+    subType: 'Mana',
     max: 4,
     count: {
       core: 2,
@@ -8436,7 +8436,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '4',
     cast: '16',
-    subtype: 'Vampiric',
+    subType: 'Vampiric',
     max: 4,
     count: {
       cok: 4
@@ -8450,7 +8450,7 @@ const cards: Card[] = [
     school: 'Earth',
     level: '2',
     cast: '9',
-    subtype: 'Seismic',
+    subType: 'Seismic',
     max: 4,
     count: {
       fvw: 4
@@ -8464,7 +8464,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '3',
-    subtype: 'Command',
+    subType: 'Command',
     max: 6,
     count: {
       core: 2,
@@ -8479,7 +8479,7 @@ const cards: Card[] = [
     school: 'Fire',
     level: '2',
     cast: 'X',
-    subtype: 'Flame',
+    subType: 'Flame',
     max: 4,
     count: {
       core: 2,
@@ -8494,7 +8494,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '1',
     cast: '1',
-    subtype: 'Healing, Hydro',
+    subType: 'Healing, Hydro',
     max: 6,
     count: {
       acw: 3
@@ -8508,7 +8508,7 @@ const cards: Card[] = [
     school: 'Fire',
     level: '1',
     cast: '4',
-    subtype: 'Flame',
+    subType: 'Flame',
     max: 6,
     count: {
       promo: 1
@@ -8522,7 +8522,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '3',
-    subtype: 'Command',
+    subType: 'Command',
     max: 4,
     count: {
       fif: 6
@@ -8536,7 +8536,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '4',
-    subtype: 'Command',
+    subType: 'Command',
     max: 6,
     count: {
       awl: 3
@@ -8550,7 +8550,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '8',
-    subtype: 'Force',
+    subType: 'Force',
     max: 4,
     count: {
       fvw: 4
@@ -8564,7 +8564,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '3',
-    subtype: 'Force',
+    subType: 'Force',
     max: 6,
     count: {
       core: 3,
@@ -8580,7 +8580,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '5',
-    subtype: 'Force',
+    subType: 'Force',
     max: 6,
     count: {
       fvw: 5
@@ -8594,7 +8594,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '2',
-    subtype: 'Command',
+    subType: 'Command',
     max: 1,
     count: {
       awl: 2
@@ -8608,7 +8608,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '9',
-    subtype: 'Healing',
+    subType: 'Healing',
     max: 4,
     count: {
       core: 2,
@@ -8625,7 +8625,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '5',
-    subtype: 'Healing',
+    subType: 'Healing',
     max: 6,
     count: {
       bvw: 3
@@ -8639,7 +8639,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '9',
-    subtype: 'Healing',
+    subType: 'Healing',
     max: 4,
     count: {
       core: 3,
@@ -8669,7 +8669,7 @@ const cards: Card[] = [
     school: 'Fire',
     level: '1',
     cast: '2',
-    subtype: 'Flame',
+    subType: 'Flame',
     max: 6,
     count: {
       fif: 6
@@ -8683,7 +8683,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '3',
-    subtype: 'Force',
+    subType: 'Force',
     max: 6,
     count: {
       core: 2,
@@ -8698,7 +8698,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '3',
     cast: '9',
-    subtype: 'Healing',
+    subType: 'Healing',
     max: 1,
     count: {
       core: 1,
@@ -8713,7 +8713,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '2',
-    subtype: 'Teleport',
+    subType: 'Teleport',
     max: 6,
     count: {
       pvs: 6
@@ -8727,7 +8727,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '1',
     cast: '4',
-    subtype: 'Lightning',
+    subType: 'Lightning',
     max: 6,
     count: {
       promo: 1
@@ -8741,7 +8741,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '1',
-    subtype: 'Healing',
+    subType: 'Healing',
     max: 6,
     count: {
       pvs: 4
@@ -8755,7 +8755,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '4',
     cast: '15',
-    subtype: 'Psychic',
+    subType: 'Psychic',
     max: 4,
     count: {
       fvw: 3
@@ -8769,7 +8769,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Healing',
+    subType: 'Healing',
     max: 6,
     count: {
       bvw: 4,
@@ -8785,7 +8785,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '5',
-    subtype: 'Healing',
+    subType: 'Healing',
     max: 6,
     count: {
       pvs: 6
@@ -8799,7 +8799,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '5',
-    subtype: 'Healing',
+    subType: 'Healing',
     max: 6,
     count: {
       core: 5,
@@ -8816,7 +8816,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '4',
-    subtype: 'Command',
+    subType: 'Command',
     max: 6,
     count: {
       pvs: 6
@@ -8830,7 +8830,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '2',
-    subtype: 'Command',
+    subType: 'Command',
     max: 6,
     count: {
       core: 2,
@@ -8846,7 +8846,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '2',
-    subtype: 'Command',
+    subType: 'Command',
     max: 6,
     count: {
       core: 2,
@@ -8862,7 +8862,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '2',
-    subtype: 'Command',
+    subType: 'Command',
     max: 6,
     count: {
       fvw: 6
@@ -8876,7 +8876,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '3',
     cast: '12',
-    subtype: 'Metamagic',
+    subType: 'Metamagic',
     max: 4,
     count: {
       core: 2,
@@ -8891,7 +8891,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: 'X',
-    subtype: 'Healing',
+    subType: 'Healing',
     max: 6,
     count: {
       core: 1,
@@ -8907,7 +8907,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '4',
-    subtype: 'Necro',
+    subType: 'Necro',
     max: 6,
     count: {
       dvn: 6
@@ -8921,7 +8921,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: 'X',
-    subtype: 'Metamagic, Protection',
+    subType: 'Metamagic, Protection',
     max: 6,
     count: {
       acp: 3
@@ -8935,7 +8935,7 @@ const cards: Card[] = [
     school: 'Holy, Water',
     level: '1&1',
     cast: '9',
-    subtype: 'Healing, Weather',
+    subType: 'Healing, Weather',
     max: 4,
     count: {
       dvn: 4
@@ -8949,7 +8949,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '4',
-    subtype: 'Force',
+    subType: 'Force',
     max: 6,
     count: {
       fvw: 5
@@ -8963,7 +8963,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '4',
     cast: 'X',
-    subtype: 'Healing',
+    subType: 'Healing',
     max: 4,
     count: {
       core: 1,
@@ -8978,7 +8978,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '0',
-    subtype: 'Metamagic, Truesight',
+    subType: 'Metamagic, Truesight',
     max: 6,
     count: {
       acp: 3
@@ -9007,7 +9007,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '2',
-    subtype: 'Metamagic',
+    subType: 'Metamagic',
     max: 6,
     count: {
       core: 3,
@@ -9024,7 +9024,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: 'X',
-    subtype: 'Metamagic',
+    subType: 'Metamagic',
     max: 6,
     count: {
       core: 2,
@@ -9040,7 +9040,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '1',
     cast: '2',
-    subtype: 'Healing, Metamagic',
+    subType: 'Healing, Metamagic',
     max: 6,
     count: {
       afm: 3
@@ -9054,7 +9054,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '6',
-    subtype: 'Vampiric',
+    subType: 'Vampiric',
     max: 4,
     count: {
       acw: 2
@@ -9068,7 +9068,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: 'X',
-    subtype: 'Psychic',
+    subType: 'Psychic',
     max: 4,
     count: {
       core: 2,
@@ -9084,7 +9084,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '2',
-    subtype: 'Valor',
+    subType: 'Valor',
     max: 1,
     count: {
       pvs: 2
@@ -9098,7 +9098,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '2',
-    subtype: 'Command',
+    subType: 'Command',
     max: 6,
     count: {
       acw: 3
@@ -9112,7 +9112,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '3',
-    subtype: 'Command',
+    subType: 'Command',
     max: 6,
     count: {
       fvw: 5
@@ -9126,7 +9126,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '3',
     cast: 'X',
-    subtype: 'Metamagic',
+    subType: 'Metamagic',
     max: 4,
     count: {
       core: 2,
@@ -9141,7 +9141,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '3',
     cast: '2X',
-    subtype: 'Force',
+    subType: 'Force',
     max: 4,
     count: {
       fvw: 4
@@ -9155,7 +9155,7 @@ const cards: Card[] = [
     school: 'War',
     level: '1',
     cast: '4',
-    subtype: 'Command',
+    subType: 'Command',
     max: 6,
     count: {
       awl: 3
@@ -9169,7 +9169,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '2',
     cast: 'X',
-    subtype: 'Teleport',
+    subType: 'Teleport',
     max: 4,
     count: {
       core: 3,
@@ -9197,7 +9197,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '9',
-    subtype: 'Necro',
+    subType: 'Necro',
     max: 1,
     count: {
       dvn: 2
@@ -9211,7 +9211,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '6',
-    subtype: "V'Tar, Curse",
+    subType: "V'Tar, Curse",
     max: 1,
     count: {
       bg1: 2
@@ -9225,7 +9225,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '5',
-    subtype: "V'Tar, Healing",
+    subType: "V'Tar, Healing",
     max: 4,
     count: {
       bg1: 6
@@ -9239,7 +9239,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '1',
     cast: '3',
-    subtype: 'Vampiric',
+    subType: 'Vampiric',
     max: 6,
     count: {
       core: 2,
@@ -9255,7 +9255,7 @@ const cards: Card[] = [
     school: 'War',
     level: '2',
     cast: '9',
-    subtype: 'Command',
+    subType: 'Command',
     max: 4,
     count: {
       fvw: 4
@@ -9269,7 +9269,7 @@ const cards: Card[] = [
     school: 'Dark',
     level: '2',
     cast: '9',
-    subtype: 'Necro',
+    subType: 'Necro',
     max: 4,
     count: {
       dvn: 4
@@ -9283,7 +9283,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '1',
     cast: '5',
-    subtype: 'Acid',
+    subType: 'Acid',
     max: 6,
     count: {
       dvn: 6
@@ -9297,7 +9297,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '1',
     cast: '5',
-    subtype: 'Acid',
+    subType: 'Acid',
     max: 6,
     count: {
       promo: 1
@@ -9311,7 +9311,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '1',
     cast: '5',
-    subtype: 'Lightning',
+    subType: 'Lightning',
     max: 6,
     count: {
       fvw: 5
@@ -9338,7 +9338,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '2',
     cast: '7',
-    subtype: 'Light',
+    subType: 'Light',
     max: 4,
     count: {
       core: 2,
@@ -9353,7 +9353,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '2',
     cast: '8',
-    subtype: "V'Tar, Lightning",
+    subType: "V'Tar, Lightning",
     max: 4,
     count: {
       bg1: 4
@@ -9367,7 +9367,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '3',
     cast: '12',
-    subtype: 'Lightning',
+    subType: 'Lightning',
     max: 4,
     count: {
       core: 2,
@@ -9382,7 +9382,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '2',
-    subtype: 'Light',
+    subType: 'Light',
     max: 6,
     count: {
       acp: 3
@@ -9396,7 +9396,7 @@ const cards: Card[] = [
     school: 'Dark, Fire',
     level: '1&1',
     cast: '7',
-    subtype: 'Flame',
+    subType: 'Flame',
     max: 4,
     count: {
       fif: 4
@@ -9410,7 +9410,7 @@ const cards: Card[] = [
     school: 'Fire',
     level: '3',
     cast: '12',
-    subtype: 'Flame',
+    subType: 'Flame',
     max: 4,
     count: {
       bg1: 4
@@ -9424,7 +9424,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '2',
     cast: '9',
-    subtype: 'Lightning',
+    subType: 'Lightning',
     max: 4,
     count: {
       core: 2,
@@ -9439,7 +9439,7 @@ const cards: Card[] = [
     school: 'Fire',
     level: '2',
     cast: '8',
-    subtype: 'Flame',
+    subType: 'Flame',
     max: 4,
     count: {
       core: 3,
@@ -9454,7 +9454,7 @@ const cards: Card[] = [
     school: 'Fire',
     level: '3',
     cast: '11',
-    subtype: 'Flame',
+    subType: 'Flame',
     max: 4,
     count: {
       core: 2,
@@ -9469,7 +9469,7 @@ const cards: Card[] = [
     school: 'Fire',
     level: '1',
     cast: '4',
-    subtype: 'Flame',
+    subType: 'Flame',
     max: 6,
     count: {
       acw: 3
@@ -9483,7 +9483,7 @@ const cards: Card[] = [
     school: 'Fire',
     level: '1',
     cast: '5',
-    subtype: 'Flame',
+    subType: 'Flame',
     max: 6,
     count: {
       core: 2,
@@ -9498,7 +9498,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '5',
-    subtype: 'Force',
+    subType: 'Force',
     max: 6,
     count: {
       afm: 3
@@ -9512,7 +9512,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '9',
-    subtype: 'Force',
+    subType: 'Force',
     max: 4,
     count: {
       fvw: 4
@@ -9526,7 +9526,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '2',
     cast: '6',
-    subtype: 'Lightning',
+    subType: 'Lightning',
     max: 4,
     count: {
       bvw: 2
@@ -9540,7 +9540,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '1',
     cast: '4',
-    subtype: 'Hydro',
+    subType: 'Hydro',
     max: 6,
     count: {
       core: 2,
@@ -9581,7 +9581,7 @@ const cards: Card[] = [
     school: 'Earth',
     level: '3',
     cast: '12',
-    subtype: '0.0',
+    subType: '0.0',
     max: 4,
     count: {
       bg1: 4
@@ -9608,7 +9608,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '4',
-    subtype: 'Force',
+    subType: 'Force',
     max: 6,
     count: {
       fvw: 5
@@ -9622,7 +9622,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '1',
     cast: '4',
-    subtype: 'Wind',
+    subType: 'Wind',
     max: 6,
     count: {
       core: 3,
@@ -9638,7 +9638,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '2',
     cast: '8',
-    subtype: 'Lightning',
+    subType: 'Lightning',
     max: 4,
     count: {
       core: 3,
@@ -9653,7 +9653,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '1',
     cast: '4',
-    subtype: 'Lightning',
+    subType: 'Lightning',
     max: 6,
     count: {
       bvw: 3
@@ -9667,7 +9667,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '5',
-    subtype: 'Light',
+    subType: 'Light',
     max: 6,
     count: {
       pvs: 6
@@ -9681,7 +9681,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '2',
     cast: '6',
-    subtype: 'Lightning',
+    subType: 'Lightning',
     max: 4,
     count: {
       bvw: 2
@@ -9695,7 +9695,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '5',
-    subtype: 'Light',
+    subType: 'Light',
     max: 6,
     count: {
       core: 3,
@@ -9710,7 +9710,7 @@ const cards: Card[] = [
     school: 'Fire',
     level: '2',
     cast: '9',
-    subtype: 'Flame',
+    subType: 'Flame',
     max: 4,
     count: {
       core: 2,
@@ -9725,7 +9725,7 @@ const cards: Card[] = [
     school: 'Air, Earth',
     level: '1&1',
     cast: '8',
-    subtype: 'Wind',
+    subType: 'Wind',
     max: 4,
     count: {
       bg1: 4
@@ -9739,7 +9739,7 @@ const cards: Card[] = [
     school: 'Earth',
     level: '2',
     cast: '7',
-    subtype: 'Seismic',
+    subType: 'Seismic',
     max: 4,
     count: {
       awl: 2
@@ -9753,7 +9753,7 @@ const cards: Card[] = [
     school: 'Earth',
     level: '1',
     cast: '3',
-    subtype: 'Seismic',
+    subType: 'Seismic',
     max: 6,
     count: {
       awl: 3
@@ -9767,7 +9767,7 @@ const cards: Card[] = [
     school: 'Holy',
     level: '1',
     cast: '5',
-    subtype: 'Light',
+    subType: 'Light',
     max: 6,
     count: {
       lg: 6
@@ -9781,7 +9781,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '1',
     cast: '5',
-    subtype: 'Hydro',
+    subType: 'Hydro',
     max: 6,
     count: {
       cok: 6
@@ -9795,7 +9795,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '1',
     cast: '4',
-    subtype: 'Hydro',
+    subType: 'Hydro',
     max: 6,
     count: {
       pvs: 6
@@ -9809,7 +9809,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '1',
     cast: '5',
-    subtype: 'Force',
+    subType: 'Force',
     max: 6,
     count: {
       afm: 3
@@ -9823,7 +9823,7 @@ const cards: Card[] = [
     school: 'Mind',
     level: '2',
     cast: '8',
-    subtype: 'Force',
+    subType: 'Force',
     max: 6,
     count: {
       afm: 2
@@ -9837,7 +9837,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '3',
     cast: '10',
-    subtype: 'Lightning',
+    subType: 'Lightning',
     max: 4,
     count: {
       core: 2,
@@ -9852,7 +9852,7 @@ const cards: Card[] = [
     school: 'Water',
     level: '3',
     cast: '14',
-    subtype: 'Hydro',
+    subType: 'Hydro',
     max: 4,
     count: {
       pvs: 4
@@ -9866,7 +9866,7 @@ const cards: Card[] = [
     school: 'Fire',
     level: '2',
     cast: '6',
-    subtype: 'Flame',
+    subType: 'Flame',
     max: 4,
     count: {
       acw: 2
@@ -9880,7 +9880,7 @@ const cards: Card[] = [
     school: 'Arcane',
     level: '3',
     cast: '12',
-    subtype: "V'Tar",
+    subType: "V'Tar",
     max: 4,
     count: {
       bg1: 4
@@ -9894,7 +9894,7 @@ const cards: Card[] = [
     school: 'Fire',
     level: '2',
     cast: '6',
-    subtype: 'Flame',
+    subType: 'Flame',
     max: 4,
     count: {
       acw: 2
@@ -9908,7 +9908,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '2',
     cast: '6',
-    subtype: 'Lightning',
+    subType: 'Lightning',
     max: 4,
     count: {
       bvw: 2
@@ -9922,7 +9922,7 @@ const cards: Card[] = [
     school: 'Air',
     level: '1',
     cast: '4',
-    subtype: 'Wind',
+    subType: 'Wind',
     max: 4,
     count: {
       bg1: 6

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
 import CardList from '../components/CardList';
 import Filter, { FilterValues } from '../components/Filter';
@@ -6,29 +6,38 @@ import SpellBook from '../components/SpellBook';
 import cards from '../data/cards';
 import Card from '../types/Card';
 
-interface State {
-  cards: Card[];
+interface IterableFilterValues extends FilterValues {
+  [key: string]: string;
 }
 
-class CardsContainer extends Component<{}, State> {
-  state = {
-    cards
+const CardsContainer: React.FC<{}> = () => {
+  const [filteredCards, setFilteredCards] = useState<Card[]>(cards);
+
+  const handleFilterChange = (filters: FilterValues) => {
+    const newFilteredCards = cards.filter(card => {
+      const iterableFilters = filters as IterableFilterValues;
+      for (let key in iterableFilters) {
+        if (
+          iterableFilters[key] !== '' &&
+          !(card[key as keyof Card] as string)
+            .toLowerCase()
+            .includes(iterableFilters[key].toLowerCase())
+        ) {
+          return false;
+        }
+      }
+      return true;
+    });
+    setFilteredCards(newFilteredCards);
   };
 
-  handleFilterChange = (values: FilterValues) => {
-    const filteredCards = cards.filter(card => card.type === values.cardType);
-    this.setState({ cards: filteredCards });
-  };
-
-  render() {
-    return (
-      <>
-        <SpellBook />
-        <Filter onChange={this.handleFilterChange} />
-        <CardList cards={this.state.cards} />
-      </>
-    );
-  }
-}
+  return (
+    <>
+      <SpellBook />
+      <Filter onChange={handleFilterChange} />
+      <CardList cards={filteredCards} />
+    </>
+  );
+};
 
 export default CardsContainer;

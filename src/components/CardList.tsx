@@ -35,7 +35,7 @@ const CardList: React.SFC<Props> = ({ cards }) => {
             <div className="cell name">{card.name}</div>
             <div className="cell type">{card.typeName}</div>
             <div className="cell subtype">
-              {card.subtype ? card.subtype : '-'}
+              {card.subType ? card.subType : '-'}
             </div>
             <div className="cell school">{card.school}</div>
           </div>
