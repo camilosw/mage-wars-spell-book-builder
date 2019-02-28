@@ -5,5 +5,15 @@
     "titleBar.activeForeground": "#ffffff",
     "titleBar.inactiveBackground": "#3d000d",
     "titleBar.inactiveForeground": "#d3d3d3"
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
   }
 }

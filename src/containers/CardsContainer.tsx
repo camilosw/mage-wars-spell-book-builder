@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import CardList from '../components/CardList';
 import Filter, { FilterValues } from '../components/Filter';
 import SpellBook from '../components/SpellBook';
@@ -32,11 +31,11 @@ const CardsContainer: React.FC<{}> = () => {
   };
 
   return (
-    <>
+    <div>
       <SpellBook />
       <Filter onChange={handleFilterChange} />
       <CardList cards={filteredCards} />
-    </>
+    </div>
   );
 };
 

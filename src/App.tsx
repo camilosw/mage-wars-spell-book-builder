@@ -1,46 +1,24 @@
-import React, { Component } from 'react';
-import { ThemeProvider, createGlobalStyle } from 'styled-components';
-
+import React from 'react';
+import LeftSidebar from './components/LeftSidebar';
 import CardsContainer from './containers/CardsContainer';
+import GlobalStyle from './styles/GlobalStyle';
+import { ThemeProvider } from './styles/styled-components';
+import theme from './styles/theme';
 
-const theme = {
-  black: '#393939'
-};
+const FilterContext = React.createContext({});
 
-const GlobalStyle = createGlobalStyle`
-  html {
-    box-sizing: border-box;
-    font-size: 10px;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  body {
-    padding: 0;
-    margin: 0;
-    font-size: 1.2rem;
-    line-height: 2;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  a {
-    text-decoration: none;
-    color: ${theme.black};
-  }
-`;
-
-class App extends Component {
-  render() {
-    return (
-      <ThemeProvider theme={theme}>
-        <>
-          <GlobalStyle />
-          <div>
-            <CardsContainer />
-          </div>
-        </>
-      </ThemeProvider>
-    );
-  }
-}
+const App: React.FC<{}> = () => (
+  <ThemeProvider theme={theme}>
+    <>
+      <GlobalStyle />
+      <FilterContext.Provider value={{}}>
+        <div>
+          <LeftSidebar />
+          <CardsContainer />
+        </div>
+      </FilterContext.Provider>
+    </>
+  </ThemeProvider>
+);
 
 export default App;
