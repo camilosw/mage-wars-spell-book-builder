@@ -1,36 +1,17 @@
-import React, { FC } from 'react';
-
+import React, { useContext } from 'react';
 import cardTypes from '../data/cardTypes';
 import schools from '../data/schools';
+import FilterContext from '../helpers/filter';
 
-export interface FilterValues {
-  name: string;
-  type: string;
-  subType: string;
-  school: string;
-  used: string;
-}
+const usedValues = [
+  { value: 'usable', label: 'Usable' },
+  { value: 'owned', label: 'Owned' },
+  { value: 'used', label: 'Used' },
+  { value: '', label: 'All' }
+];
 
-export interface Props {
-  onChange: (values: FilterValues) => void;
-}
-
-const Filter: FC<Props> = ({ onChange }) => {
-  const initialState: FilterValues = {
-    name: '',
-    type: '',
-    subType: '',
-    school: '',
-    used: ''
-  };
-  const [filter, setFilter] = React.useState<FilterValues>(initialState);
-
-  const usedValues = [
-    { value: '', label: 'Usage' },
-    { value: 'used', label: 'Used' },
-    { value: 'owned', label: 'Owned' },
-    { value: 'usable', label: 'Usable' }
-  ];
+const Filter: React.FC<{}> = () => {
+  const [filter, setFilter] = useContext(FilterContext);
 
   const handleChange = (
     event:
@@ -39,12 +20,6 @@ const Filter: FC<Props> = ({ onChange }) => {
   ) => {
     const newFilter = { ...filter, [event.target.name]: event.target.value };
     setFilter(newFilter);
-    onChange(newFilter);
-  };
-
-  const handleReset = () => {
-    setFilter(initialState);
-    onChange(initialState);
   };
 
   return (
@@ -79,16 +54,21 @@ const Filter: FC<Props> = ({ onChange }) => {
           </option>
         ))}
       </select>
-      <select name="used" value={filter.used} onChange={handleChange}>
-        {usedValues.map(option => (
-          <option value={option.value} key={option.label}>
-            {option.label}
-          </option>
-        ))}
-      </select>
       <select name="mage" id="mage" />
       <select name="slot" id="slot" />
-      <button onClick={handleReset}>Reset filter</button>
+      <div>
+        {usedValues.map(option => (
+          <label key={option.value}>
+            <input
+              type="radio"
+              name="used"
+              value={option.value}
+              key={option.label}
+            />
+            {option.label}
+          </label>
+        ))}
+      </div>
     </div>
   );
 };
